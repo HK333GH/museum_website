@@ -41,7 +41,6 @@
         img.className = 'artwork-card-image';
         img.src = item.thumbnail_url || item.image_url;
         img.alt = item.title;
-        img.loading = 'lazy';
         img.onerror = function() {
           // Fallback: try full image if thumbnail fails
           if (this.src !== item.image_url) {
