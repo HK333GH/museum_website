@@ -41,12 +41,15 @@
     // Update page title
     document.title = `${artwork.title} by ${artwork.artist} — p1xelDrifter Museum`;
 
-    // Set OG image
+    // Set OG image with absolute URL
     const ogImage = document.querySelector('meta[property="og:image"]');
-    if (!ogImage) {
+    const absoluteImageUrl = `${window.location.origin}/${artwork.image_url}`;
+    if (ogImage) {
+      ogImage.content = absoluteImageUrl;
+    } else {
       const meta = document.createElement('meta');
       meta.setAttribute('property', 'og:image');
-      meta.content = artwork.image_url;
+      meta.content = absoluteImageUrl;
       document.head.appendChild(meta);
     }
 
