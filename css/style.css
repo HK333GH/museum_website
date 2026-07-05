@@ -621,11 +621,18 @@ img[loading="lazy"].loaded {
   .navbar {
     padding: 0 var(--space-md);
   }
+  .nav-logo-img {
+    height: 40px;
+  }
   .nav-links {
     gap: var(--space-md);
   }
   .nav-links a {
     font-size: var(--font-size-xs);
+  }
+  .nav-social svg {
+    width: 16px;
+    height: 16px;
   }
   .hero-title {
     font-size: var(--font-size-3xl);
@@ -642,11 +649,18 @@ img[loading="lazy"].loaded {
   .gallery-grid {
     grid-template-columns: 1fr;
   }
+  .nav-logo-img {
+    height: 32px;
+  }
   .nav-links {
     gap: var(--space-sm);
   }
   .nav-links a {
-    font-size: 0.65rem;
+    font-size: 0.6rem;
+  }
+  .nav-social svg {
+    width: 14px;
+    height: 14px;
   }
   .nav-logo-main {
     font-size: var(--font-size-sm);
