@@ -324,7 +324,7 @@ a:hover {
 
 /* ── Section Headers ── */
 .section-header {
-  padding: var(--space-xl) var(--space-lg) var(--space-md);
+  padding: var(--space-xl) var(--space-md) var(--space-md);
   max-width: var(--max-width);
   margin: 0 auto;
 }
@@ -346,7 +346,7 @@ a:hover {
 .gallery {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 var(--space-lg) var(--space-2xl);
+  padding: 0 var(--space-md) var(--space-2xl);
 }
 
 .gallery-group {
