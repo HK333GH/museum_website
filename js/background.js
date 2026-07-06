@@ -11,7 +11,7 @@
   // ── Canvas setup ──────────────────────────────────────────
   const canvas = document.createElement('canvas');
   canvas.style.cssText =
-    'position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;';
+    'position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;pointer-events:none;';
   // Insert as FIRST child of body so it sits behind everything
   document.body.insertBefore(canvas, document.body.firstChild);
 
@@ -307,8 +307,7 @@
   let lastMouseTime = 0;
 
   function onMove(clientX, clientY) {
-    prevMouseX = mouseX;
-    prevMouseY = mouseY;
+    // Only update current position, NOT prevMouse (that's done in render loop)
     mouseX = clientX;
     mouseY = clientY;
     mouseOnScreen = true;
@@ -370,17 +369,22 @@
     currentTime += dt * 1e-4;
     effectiveTime += dt * 5e-4 * INTENSITY;
 
-    // Compute mouse velocity (in normalized screen coords for flowmap UV)
+    // Compute mouse velocity (pixel delta since last frame)
     const dx = mouseX - prevMouseX;
     const dy = mouseY - prevMouseY;
+
+    // Update prevMouse AFTER computing delta (catches all movement between frames)
+    prevMouseX = mouseX;
+    prevMouseY = mouseY;
 
     // Decay velocity when mouse is stationary or off-screen
     const now = performance.now();
     const timeSinceMove = now - lastMouseTime;
 
     if (mouseOnScreen && timeSinceMove < 100) {
-      velocityX = dx / canvas.width;
-      velocityY = dy / canvas.height;
+      // Use raw pixel deltas (quentinhocde.com does NOT normalize by canvas size)
+      velocityX = dx;
+      velocityY = dy;
     } else {
       velocityX *= 0.9;
       velocityY *= 0.9;
