@@ -387,7 +387,7 @@ a:hover {
 
 .artwork-card-image {
   width: 100%;
-  height: auto;
+  aspect-ratio: 1 / 1;
   object-fit: contain;
   display: block;
   image-rendering: auto;
@@ -664,7 +664,7 @@ img[loading="lazy"].loaded {
 
 @media (max-width: 480px) {
   .gallery-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
   .nav-links {
     gap: var(--space-sm);
