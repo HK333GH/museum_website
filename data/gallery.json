@@ -30,21 +30,6 @@
     "sub_category": "Art Blocks Collection"
   },
   {
-    "id": "artblocks-352000343",
-    "title": "The Inner World #343",
-    "artist": "Dominikus",
-    "collection": "The Inner World",
-    "platform": "Art Blocks",
-    "blockchain": "Ethereum",
-    "mint_date": "2023",
-    "item_number": "343",
-    "image_url": "assets/images/full/artblocks-352000343.webp",
-    "thumbnail_url": "assets/images/thumbnails/artblocks-352000343.webp",
-    "source_url": "https://www.artblocks.io/token/1/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/352000343",
-    "category": "generative-art",
-    "sub_category": "Art Blocks Collection"
-  },
-  {
     "id": "artblocks-361000056",
     "title": "flora, fauna, false gods & floods #56",
     "artist": "Ryan Green",
@@ -56,6 +41,21 @@
     "image_url": "assets/images/full/artblocks-361000056.webp",
     "thumbnail_url": "assets/images/thumbnails/artblocks-361000056.webp",
     "source_url": "https://www.artblocks.io/token/1/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/361000056",
+    "category": "generative-art",
+    "sub_category": "Art Blocks Collection"
+  },
+  {
+    "id": "artblocks-352000343",
+    "title": "The Inner World #343",
+    "artist": "Dominikus",
+    "collection": "The Inner World",
+    "platform": "Art Blocks",
+    "blockchain": "Ethereum",
+    "mint_date": "2023",
+    "item_number": "343",
+    "image_url": "assets/images/full/artblocks-352000343.webp",
+    "thumbnail_url": "assets/images/thumbnails/artblocks-352000343.webp",
+    "source_url": "https://www.artblocks.io/token/1/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/352000343",
     "category": "generative-art",
     "sub_category": "Art Blocks Collection"
   },
@@ -86,21 +86,6 @@
     "image_url": "assets/images/full/fxhash-assembling-machine-88.webp",
     "thumbnail_url": "assets/images/thumbnails/fxhash-assembling-machine-88.webp",
     "source_url": "https://www.fxhash.xyz/iteration/assembling-machine-88",
-    "category": "generative-art",
-    "sub_category": "fxHash Collection"
-  },
-  {
-    "id": "fxhash-anatomy-of-fracture-164",
-    "title": "The Anatomy of Fracture #164",
-    "artist": "Aleksandra & GalerieData",
-    "collection": "The Anatomy of Fracture",
-    "platform": "fxHash",
-    "blockchain": "Tezos",
-    "mint_date": "08 Oct 2025",
-    "item_number": "164",
-    "image_url": "assets/images/full/fxhash-anatomy-of-fracture-164.webp",
-    "thumbnail_url": "assets/images/thumbnails/fxhash-anatomy-of-fracture-164.webp",
-    "source_url": "https://www.fxhash.xyz/iteration/the-anatomy-of-fracture-164",
     "category": "generative-art",
     "sub_category": "fxHash Collection"
   },
@@ -161,6 +146,21 @@
     "image_url": "assets/images/full/fxhash-computers-109.webp",
     "thumbnail_url": "assets/images/thumbnails/fxhash-computers-109.webp",
     "source_url": "https://www.fxhash.xyz/iteration/computers-109",
+    "category": "generative-art",
+    "sub_category": "fxHash Collection"
+  },
+  {
+    "id": "fxhash-anatomy-of-fracture-164",
+    "title": "The Anatomy of Fracture #164",
+    "artist": "Aleksandra & GalerieData",
+    "collection": "The Anatomy of Fracture",
+    "platform": "fxHash",
+    "blockchain": "Tezos",
+    "mint_date": "08 Oct 2025",
+    "item_number": "164",
+    "image_url": "assets/images/full/fxhash-anatomy-of-fracture-164.webp",
+    "thumbnail_url": "assets/images/thumbnails/fxhash-anatomy-of-fracture-164.webp",
+    "source_url": "https://www.fxhash.xyz/iteration/the-anatomy-of-fracture-164",
     "category": "generative-art",
     "sub_category": "fxHash Collection"
   },
