@@ -256,6 +256,8 @@ a:hover {
 .content {
   margin-top: var(--nav-height);
   min-height: calc(100vh - var(--nav-height));
+  position: relative;
+  z-index: 1;
 }
 
 /* ── Hero Section (Landing) ── */
@@ -569,6 +571,8 @@ a:hover {
   color: var(--text-muted);
   font-size: var(--font-size-xs);
   letter-spacing: 0.05em;
+  position: relative;
+  z-index: 1;
 }
 
 /* ── NotFound / Error ── */
