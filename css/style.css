@@ -150,7 +150,8 @@ a:hover {
   border-bottom: 1px solid var(--border-color);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: var(--space-xl);
   padding: 0 32px;
   z-index: 1000;
 }
@@ -203,8 +204,9 @@ a:hover {
 .nav-links a {
   color: var(--text-secondary);
   font-size: var(--font-size-sm);
-  font-weight: 400;
-  letter-spacing: 0.05em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
   padding: var(--space-xs) 0;
   position: relative;
   transition: color var(--transition-fast);
