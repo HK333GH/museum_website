@@ -151,7 +151,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 var(--space-md);
+  padding: 0 20px;
   z-index: 1000;
 }
 
@@ -324,7 +324,7 @@ a:hover {
 
 /* ── Section Headers ── */
 .section-header {
-  padding: var(--space-xl) var(--space-md) var(--space-md);
+  padding: var(--space-xl) 20px var(--space-md);
   max-width: var(--max-width);
   margin: 0 auto;
 }
@@ -346,7 +346,7 @@ a:hover {
 .gallery {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 var(--space-md) var(--space-2xl);
+  padding: 0 20px var(--space-2xl);
 }
 
 .gallery-group {
