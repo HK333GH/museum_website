@@ -49,8 +49,8 @@
 
   /* Layout */
   --nav-height: 80px;
-  --max-width: 1400px;
-  --grid-gap: 1.5rem;
+  --max-width: 100%;
+  --grid-gap: 1rem;
 
   /* Animation */
   --transition-fast: 0.15s ease;
@@ -151,7 +151,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 var(--space-lg);
+  padding: 0 var(--space-md);
   z-index: 1000;
 }
 
