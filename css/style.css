@@ -171,40 +171,33 @@ a:focus:not(:focus-visible) {
 
 .nav-logo {
   display: flex;
-  align-items: center;
-  gap: var(--space-sm);
+  flex-direction: column;
+  align-items: flex-start;
   text-decoration: none;
   flex-shrink: 0;
+  line-height: 1.05;
+  gap: 2px;
 }
 
-/* Logo image */
-.nav-logo-img {
-  height: 72px;
-  width: auto;
-  display: block;
-  image-rendering: pixelated;
-}
-
-/* Keep text logo styles as fallback */
-.nav-logo-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.1;
-}
-
+/* Font-based logo (replaces image) */
 .nav-logo-main {
-  font-size: var(--font-size-lg);
+  font-size: 22px;
   font-weight: 700;
-  color: var(--neon-cyan);
-  text-shadow: var(--text-glow-cyan);
-  letter-spacing: 0.03em;
+  color: var(--neon-magenta);
+  text-shadow: 0 0 8px rgba(255, 0, 255, 0.3);
+  letter-spacing: 0.01em;
+  font-family: var(--font-mono);
+  white-space: nowrap;
 }
 
 .nav-logo-sub {
-  font-size: var(--font-size-xs);
-  font-weight: 400;
-  color: var(--text-secondary);
-  letter-spacing: 0.1em;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--neon-magenta);
+  text-shadow: 0 0 8px rgba(255, 0, 255, 0.3);
+  letter-spacing: 0.01em;
+  font-family: var(--font-mono);
+  white-space: nowrap;
 }
 
 .nav-links {
