@@ -152,7 +152,7 @@
 
       vec3 color = vec3(finalVal);
       color = pow(color, vec3(1.5));
-      color = mix(vec3(0.05), vec3(0.22), color);
+      color = mix(vec3(0.08), vec3(0.55), color);
 
       float vignette = length(uv - 0.5);
       vignette = 1.0 - smoothstep(0.3, 1.1, vignette);

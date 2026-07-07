@@ -18,9 +18,9 @@
   --neon-orange: #ff6600;
 
   /* Text */
-  --text-primary: #e0e0e0;
-  --text-secondary: #8888aa;
-  --text-muted: #555566;
+  --text-primary: #ffffff;
+  --text-secondary: #cccccc;
+  --text-muted: #9999aa;
 
   /* Borders & glows */
   --border-color: #2a2a3a;
@@ -172,7 +172,7 @@ a:focus:not(:focus-visible) {
 .nav-logo {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   text-decoration: none;
   flex-shrink: 0;
   line-height: 1.05;
