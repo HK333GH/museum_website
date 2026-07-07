@@ -19,6 +19,15 @@
       groups[key].push(a);
     }
 
+    // Sort each group by mint_date descending (newest first)
+    for (const key of Object.keys(groups)) {
+      groups[key].sort((a, b) => {
+        const da = new Date(a.mint_date);
+        const db = new Date(b.mint_date);
+        return db - da;
+      });
+    }
+
     // Render groups
     for (const [groupName, items] of Object.entries(groups)) {
       const group = document.createElement('div');
