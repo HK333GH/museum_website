@@ -30,8 +30,8 @@
 
   /* Typography */
   --font-mono: 'Roboto Mono', 'Courier New', monospace;
-  --font-size-xs: 0.7rem;
-  --font-size-sm: 0.8rem;
+  --font-size-xs: 0.75rem;      /* 12px — was 0.7rem */
+  --font-size-sm: 0.85rem;      /* 13.6px — was 0.8rem */
   --font-size-base: 0.95rem;
   --font-size-lg: 1.15rem;
   --font-size-xl: 1.4rem;
@@ -137,6 +137,19 @@ a:hover {
   text-shadow: 0 0 8px rgba(255, 0, 255, 0.4);
 }
 
+/* ── Focus-visible styles (keyboard nav) ── */
+a:focus-visible,
+.artwork-card:focus-visible,
+.nav-links a:focus-visible,
+.hero-cta:focus-visible,
+.footer-social:focus-visible {
+  outline: 2px solid var(--neon-cyan);
+  outline-offset: 2px;
+}
+a:focus:not(:focus-visible) {
+  outline: none;
+}
+
 /* ── Navigation ── */
 .navbar {
   position: fixed;
@@ -234,6 +247,23 @@ a:hover {
   color: var(--neon-cyan);
 }
 
+/* Mobile hamburger toggle */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: 1px solid var(--border-color);
+  color: var(--neon-cyan);
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 4px 10px;
+  line-height: 1;
+  margin-left: auto;
+  transition: border-color var(--transition-fast);
+}
+.nav-toggle:hover {
+  border-color: var(--neon-cyan);
+}
+
 .nav-social {
   color: var(--text-secondary);
   font-size: var(--font-size-lg);
@@ -328,7 +358,7 @@ a:hover {
 
 /* ── Section Headers ── */
 .section-header {
-  padding: var(--space-xl) 32px var(--space-md);
+  padding: var(--space-xl) 48px var(--space-lg);  /* was 32px / --space-md */
   max-width: var(--max-width);
   margin: 0 auto;
 }
@@ -341,8 +371,8 @@ a:hover {
 }
 
 .section-subtitle {
-  font-size: var(--font-size-sm);
-  color: var(--text-muted);
+  font-size: var(--font-size-sm);         /* was 0.8rem → now 0.85rem */
+  color: var(--text-secondary);            /* was --text-muted → WCAG AA fix */
   letter-spacing: 0.05em;
 }
 
@@ -350,7 +380,7 @@ a:hover {
 .gallery {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 32px var(--space-2xl);
+  padding: 0 48px var(--space-2xl);   /* was 32px → 48px for breathing room */
 }
 
 .gallery-group {
@@ -364,11 +394,22 @@ a:hover {
   padding-bottom: var(--space-xs);
   border-bottom: 1px solid rgba(255, 0, 255, 0.2);
   letter-spacing: 0.03em;
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-sm);
+}
+
+/* Item count badge next to collection heading */
+.gallery-group-count {
+  font-size: var(--font-size-xs);
+  color: var(--text-muted);
+  font-weight: 400;
+  letter-spacing: 0.05em;
 }
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);   /* was 6 → 4 for gallery feel */
   gap: var(--grid-gap);
 }
 
@@ -378,8 +419,10 @@ a:hover {
   border: 1px solid var(--border-color);
   overflow: hidden;
   cursor: pointer;
-  transition: all var(--transition-base);
+  transition: all var(--transition-base), opacity 0.4s ease;
   position: relative;
+  text-decoration: none;
+  display: block;
 }
 
 .artwork-card:hover {
@@ -399,22 +442,35 @@ a:hover {
 }
 
 .artwork-card-info {
-  padding: var(--space-sm) var(--space-md);
+  padding: 12px 16px 14px;   /* was 8px 16px — more breathing room */
 }
 
 .artwork-card-title {
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-sm);   /* was 0.8rem → now 0.85rem (~14px) */
   font-weight: 700;
   color: var(--text-primary);
-  margin-bottom: 2px;
-  white-space: nowrap;
+  margin-bottom: 3px;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
+  min-height: 2.2em;          /* reserve 2 lines so all cards align */
 }
 
 .artwork-card-artist {
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-xs);   /* was 0.7rem → now 0.75rem (12px) */
   color: var(--text-secondary);
+}
+
+/* Card entrance animation */
+.artwork-card {
+  opacity: 0;
+  transform: translateY(12px);
+}
+.artwork-card.revealed {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* ── Artwork Detail Page ── */
@@ -563,6 +619,7 @@ a:hover {
   color: var(--neon-magenta);
   text-shadow: 0 0 8px rgba(255, 0, 255, 0.4);
 }
+
 /* ── Footer ── */
 .footer {
   text-align: center;
@@ -573,6 +630,21 @@ a:hover {
   letter-spacing: 0.05em;
   position: relative;
   z-index: 1;
+}
+
+/* Back-to-top link in footer */
+.back-to-top {
+  display: block;
+  margin-top: var(--space-sm);
+  color: var(--text-secondary);
+  font-size: var(--font-size-xs);
+  text-decoration: none;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: color var(--transition-fast);
+}
+.back-to-top:hover {
+  color: var(--neon-cyan);
 }
 
 /* ── NotFound / Error ── */
@@ -630,7 +702,7 @@ img[loading="lazy"].loaded {
 /* ── Responsive ── */
 @media (max-width: 1024px) {
   .gallery-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);   /* was 4 → 3 */
   }
   .artwork-detail-grid {
     grid-template-columns: 1fr;
@@ -642,7 +714,7 @@ img[loading="lazy"].loaded {
 
 @media (max-width: 768px) {
   .gallery-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);   /* was 3 → 2 */
   }
   .navbar {
     padding: 0 var(--space-md);
@@ -668,25 +740,41 @@ img[loading="lazy"].loaded {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
+  .nav-toggle {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+    position: fixed;
+    top: var(--nav-height);
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: rgba(10, 10, 15, 0.97);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-color);
+    padding: var(--space-md) var(--space-lg);
+    gap: var(--space-md);
+    z-index: 999;
+  }
+  .nav-links.open {
+    display: flex;
+  }
+  .nav-links a {
+    font-size: var(--font-size-sm);
+    padding: var(--space-sm) 0;
+    width: 100%;
+  }
   .gallery-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .nav-links {
-    gap: var(--space-sm);
+  .gallery {
+    padding: 0 16px var(--space-2xl);
   }
-  .nav-links a {
-    font-size: 0.6rem;
-  }
-  .nav-social svg {
-    width: 14px;
-    height: 14px;
-  }
-  .nav-logo-main {
-    font-size: var(--font-size-sm);
-  }
-  .nav-logo-sub {
-    font-size: 0.55rem;
+  .section-header {
+    padding: var(--space-lg) 16px var(--space-md);
   }
   .hero {
     padding: var(--space-lg) var(--space-md);
@@ -696,5 +784,23 @@ img[loading="lazy"].loaded {
   }
   :root {
     --font-size-hero: 1.6rem;
+  }
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .artwork-card {
+    transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+    opacity: 1;
+    transform: none;
+  }
+  .artwork-card:hover {
+    transform: none;
+  }
+  .hero-title.glitch {
+    animation: none;
   }
 }
