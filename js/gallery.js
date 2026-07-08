@@ -77,12 +77,9 @@
 
           const img = document.createElement('img');
           img.className = 'artwork-card-image';
-          img.src = item.thumbnail_url || item.image_url;
+          img.src = item.thumbnail_url;
           img.alt = item.title;
           if (index >= 4) img.loading = 'lazy';
-          img.onerror = function() {
-            if (this.src !== item.image_url) this.src = item.image_url;
-          };
 
           // Hover overlay with "VIEW" text
           const overlay = document.createElement('div');
