@@ -138,30 +138,6 @@
 
       container.appendChild(frag);
 
-      // ── Lazy-load images: add .loaded class when they enter viewport ──
-      // main.js sets this up on DOMContentLoaded, but gallery cards are
-      // rendered after an async fetch — so the observer there never sees
-      // them. We set up our own observer here, after cards exist in the DOM.
-      var lazyImgs = container.querySelectorAll('img[loading="lazy"]');
-      if ('IntersectionObserver' in window) {
-        var imgObserver = new IntersectionObserver(function(entries) {
-          entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('loaded');
-              imgObserver.unobserve(entry.target);
-            }
-          });
-        }, { rootMargin: '200px' });
-        lazyImgs.forEach(function(img) { imgObserver.observe(img); });
-      } else {
-        lazyImgs.forEach(function(img) { img.classList.add('loaded'); });
-      }
-
-      // Mark non-lazy images as loaded immediately
-      container.querySelectorAll('img:not([loading="lazy"])').forEach(function(img) {
-        img.classList.add('loaded');
-      });
-
       // Card entrance animation: stagger reveal as cards enter viewport
       if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
         var cardObserver = new IntersectionObserver(function(entries) {

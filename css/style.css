@@ -671,14 +671,9 @@ img {
   background: var(--bg-secondary);
 }
 
-img[loading="lazy"] {
-  opacity: 0;
-  transition: opacity var(--transition-slow);
-}
-
-img[loading="lazy"].loaded {
-  opacity: 1;
-}
+/* Native loading="lazy" handles network deferral.
+   No opacity:0 gate — it caused a race condition where
+   dynamically-rendered images never received the .loaded class. */
 
 /* ── Responsive ── */
 @media (max-width: 1024px) {
