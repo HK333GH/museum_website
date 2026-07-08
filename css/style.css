@@ -188,6 +188,7 @@ a:focus:not(:focus-visible) {
   letter-spacing: 0.01em;
   font-family: var(--font-mono);
   white-space: nowrap;
+  transition: color var(--transition-fast), text-shadow var(--transition-fast);
 }
 
 .nav-logo-sub {
@@ -198,6 +199,14 @@ a:focus:not(:focus-visible) {
   letter-spacing: 0.01em;
   font-family: var(--font-mono);
   white-space: nowrap;
+  transition: color var(--transition-fast), text-shadow var(--transition-fast);
+}
+
+/* Logo hover — same cyan highlight as nav links */
+.nav-logo:hover .nav-logo-main,
+.nav-logo:hover .nav-logo-sub {
+  color: var(--neon-cyan);
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.4);
 }
 
 /* Centered nav links — flex: 1 pushes the social icon to the right */
