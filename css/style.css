@@ -295,14 +295,40 @@ a:focus:not(:focus-visible) {
   position: relative;
 }
 
+/* Small eyebrow text above the title */
+.hero-eyebrow {
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  color: var(--text-muted);
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-sm);
+}
+
 .hero-title {
   font-size: var(--font-size-hero);
   font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-bottom: var(--space-lg);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0.25em;
+  line-height: 1.1;
+}
+
+/* Brand name — magenta with glow */
+.hero-title-brand {
+  color: var(--neon-magenta);
+  text-shadow: 0 0 10px rgba(255, 0, 255, 0.5), 0 0 30px rgba(255, 0, 255, 0.2);
+}
+
+/* Venue — cyan with glow */
+.hero-title-venue {
   color: var(--neon-cyan);
   text-shadow: var(--text-glow-cyan), 0 0 40px rgba(0, 255, 255, 0.3);
-  letter-spacing: 0.05em;
-  margin-bottom: var(--space-md);
-  position: relative;
 }
 
 /* Glitch effect on hero title */
@@ -323,8 +349,37 @@ a:focus:not(:focus-visible) {
   font-size: var(--font-size-lg);
   color: var(--text-secondary);
   max-width: 700px;
-  margin: 0 auto var(--space-xl);
+  margin: 0 auto var(--space-lg);
   line-height: 1.8;
+}
+
+/* Submission invitation below CTA */
+.hero-submission {
+  font-size: var(--font-size-sm);
+  color: var(--text-muted);
+  margin-top: var(--space-lg);
+  letter-spacing: 0.03em;
+}
+
+.hero-link {
+  color: var(--neon-cyan);
+  text-decoration: none;
+  font-weight: 700;
+  transition: color var(--transition-fast), text-shadow var(--transition-fast);
+}
+
+.hero-link:hover {
+  color: var(--neon-magenta);
+  text-shadow: 0 0 8px rgba(255, 0, 255, 0.4);
+}
+
+.hero-link-arrow {
+  display: inline-block;
+  transition: transform var(--transition-fast);
+}
+
+.hero-link:hover .hero-link-arrow {
+  transform: translateX(4px);
 }
 
 .hero-cta {
@@ -752,8 +807,12 @@ img {
   .hero {
     padding: var(--space-lg) var(--space-md);
   }
+  .hero-eyebrow {
+    font-size: var(--font-size-xs);
+    letter-spacing: 0.25em;
+  }
   :root {
-    --font-size-hero: 1.6rem;
+    --font-size-hero: 1.5rem;
   }
 }
 
