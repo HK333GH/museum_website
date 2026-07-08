@@ -392,7 +392,7 @@ a:focus:not(:focus-visible) {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: var(--space-md);
-  max-width: 900px;
+  max-width: 1080px;
   width: 100%;
   margin: var(--space-xl) auto 0;
   padding: 0 var(--space-md);
@@ -716,7 +716,7 @@ img {
   }
   .category-cards {
     grid-template-columns: repeat(3, 1fr);
-    max-width: 600px;
+    max-width: 720px;
   }
   :root {
     --font-size-hero: 2.5rem;
@@ -748,7 +748,7 @@ img {
   }
   .category-cards {
     grid-template-columns: repeat(3, 1fr);
-    max-width: 500px;
+    max-width: 600px;
   }
   :root {
     --font-size-hero: 2rem;
