@@ -6,6 +6,9 @@
   const container = document.getElementById('gallery-container');
   if (!container) return;
 
+  // Read category filter from data attribute (e.g. data-category="ai-art")
+  const categoryFilter = container.getAttribute('data-category') || null;
+
   // Format "28 Mar 2026" → "Mar 2026" (Month Year)
   function formatMintDate(raw) {
     const parts = raw.trim().split(/\s+/);
@@ -28,6 +31,11 @@
       return res.json();
     })
     .then(artworks => {
+      // Filter by category if specified
+      if (categoryFilter) {
+        artworks = artworks.filter(a => a.category === categoryFilter);
+      }
+
       // Group by sub_category
       const groups = {};
       for (const a of artworks) {
