@@ -44,9 +44,14 @@
         groups[key].push(a);
       }
 
-      // Sort each group by mint_date descending (newest first)
+      // Sort each group: newest-first by default, oldest-first for early/historical collections
+      const oldestFirstGroups = ['Early Ethereum NFTs', 'Early Bitcoin NFTs on Counterparty'];
       for (const key of Object.keys(groups)) {
-        groups[key].sort((a, b) => new Date(b.mint_date) - new Date(a.mint_date));
+        if (oldestFirstGroups.includes(key)) {
+          groups[key].sort((a, b) => new Date(a.mint_date) - new Date(b.mint_date));
+        } else {
+          groups[key].sort((a, b) => new Date(b.mint_date) - new Date(a.mint_date));
+        }
       }
 
       const frag = document.createDocumentFragment();
