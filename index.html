@@ -14,6 +14,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Lava effect flows behind hero text but over category cards (index only) */
+        canvas { z-index: 1 !important; }
+        .hero { position: static; }
+        .hero-eyebrow,
+        .hero-title,
+        .hero-subtitle,
+        .hero-tagline,
+        .hero-submission { position: relative; z-index: 2; }
+        .footer { position: relative; z-index: 2; }
+    </style>
 </head>
 <body>
     <nav class="navbar">
