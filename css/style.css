@@ -171,10 +171,21 @@ a:focus:not(:focus-visible) {
 
 .nav-logo {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   text-decoration: none;
   flex-shrink: 0;
+  gap: 10px;
+}
+
+.nav-logo-icon {
+  display: block;
+  flex-shrink: 0;
+}
+
+.nav-logo-text {
+  display: flex;
+  flex-direction: column;
   line-height: 1.05;
   gap: 2px;
 }

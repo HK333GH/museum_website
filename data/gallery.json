@@ -855,7 +855,7 @@
   {
     "id": "anim-maschine-331",
     "title": "Maschine #331",
-    "artist": "Maschine",
+    "artist": "Harm van den Dorpel",
     "collection": "Maschine",
     "platform": "OpenSea",
     "blockchain": "Ethereum",
@@ -971,20 +971,5 @@
     "category": "photography",
     "sub_category": "objkt.com",
     "thumbnail_url": "assets/images/thumbnails/photo-abundance-256434.webp"
-  },
-  {
-    "id": "photo-face-world-5",
-    "title": "Going To Face The World Today",
-    "artist": "Unknown",
-    "collection": "Unknown",
-    "platform": "objkt.com",
-    "blockchain": "Tezos",
-    "mint_date": "01 Sep 2025",
-    "item_number": "5",
-    "source_url": "https://objkt.com/tokens/KT1MgsjZW7YHHvi1m8aVASXmqnqd8Rfjq3x5/5",
-    "image_url": "https://assets.objkt.media/file/assets-003/QmXzcBE3c8zAc992t5YNYowbgrWvDzPjc6pnBKnhx4DfeF/artifact",
-    "category": "photography",
-    "sub_category": "objkt.com",
-    "thumbnail_url": "assets/images/thumbnails/photo-face-world-5.webp"
   }
 ]
