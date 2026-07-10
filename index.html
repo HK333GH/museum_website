@@ -15,16 +15,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <style>
-        /* Lava effect flows behind hero text but over category cards (index only) */
-        /* .content has z-index:1 — canvas must outrank it to flow over cards */
-        canvas { z-index: 2 !important; }
-        .hero { position: static; }
+        /* Lava flows behind hero text but over category cards (index only).
+           .content has position:relative;z-index:1 in the shared CSS — that creates
+           a stacking context that traps all children. We dissolve it so children
+           participate in the root stacking context directly. */
+        .content { position: static; z-index: auto; }
+        canvas  { z-index: 1 !important; }
+        .hero   { position: static; }
         .hero-eyebrow,
         .hero-title,
         .hero-subtitle,
         .hero-tagline,
-        .hero-submission { position: relative; z-index: 3; }
-        .footer { position: relative; z-index: 3; }
+        .hero-submission { position: relative; z-index: 2; }
+        .footer { position: relative; z-index: 2; }
     </style>
 </head>
 <body>
