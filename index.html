@@ -16,14 +16,15 @@
     <link rel="stylesheet" href="css/style.css">
     <style>
         /* Lava effect flows behind hero text but over category cards (index only) */
-        canvas { z-index: 1 !important; }
+        /* .content has z-index:1 — canvas must outrank it to flow over cards */
+        canvas { z-index: 2 !important; }
         .hero { position: static; }
         .hero-eyebrow,
         .hero-title,
         .hero-subtitle,
         .hero-tagline,
-        .hero-submission { position: relative; z-index: 2; }
-        .footer { position: relative; z-index: 2; }
+        .hero-submission { position: relative; z-index: 3; }
+        .footer { position: relative; z-index: 3; }
     </style>
 </head>
 <body>
