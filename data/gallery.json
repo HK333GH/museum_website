@@ -986,5 +986,20 @@
     "category": "photography",
     "sub_category": "objkt.com",
     "thumbnail_url": "assets/images/thumbnails/photo-abundance-256434.webp"
+  },
+  {
+    "id": "photo-colours-dark-corners-0",
+    "title": "Colours and dark corners.",
+    "artist": "AileenStreet",
+    "collection": "Explore the night",
+    "platform": "objkt.com",
+    "blockchain": "Tezos",
+    "mint_date": "18 Dec 2022",
+    "item_number": "0",
+    "source_url": "https://objkt.com/tokens/KT1PWwHXMWRearzM6y4aZXoeQCanth2fZD2U/0",
+    "image_url": "https://assets.objkt.media/file/assets-003/QmcNPTobxqCfSsoNFzX6yZsgUHhuD9xqftU7NmMQkZg5kS/artifact",
+    "category": "photography",
+    "sub_category": "objkt.com",
+    "thumbnail_url": "assets/images/thumbnails/photo-colours-dark-corners-0.webp"
   }
 ]
