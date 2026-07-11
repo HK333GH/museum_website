@@ -1,0 +1,145 @@
+[
+  {
+    "id": "cryptopunks-2017",
+    "title": "CryptoPunks: The Rosetta Stone of NFTs",
+    "artist": "Larva Labs",
+    "collection": "CryptoPunks V1 (wrapped)",
+    "category": "crypto-art",
+    "summary": "Launched in June 2017 by Matt Hall and John Watkinson, CryptoPunks were among the first NFTs minted on Ethereum — 10,000 unique 24×24 pixel characters that became the prototype for digital collectibles and helped inspire the ERC-721 standard.",
+    "article_url": "https://www.larvalabs.com/cryptopunks",
+    "source": "Larva Labs",
+    "tags": ["crypto-art", "Ethereum", "history", "pioneer"]
+  },
+  {
+    "id": "curio-cards-2017",
+    "title": "Curio Cards: The First Art NFTs on Ethereum",
+    "artist": "Cryptograffiti, Marisol Vengas, and others",
+    "collection": "My Curio Cards",
+    "category": "crypto-art",
+    "summary": "Launched on May 9, 2017 — six weeks before CryptoPunks — Curio Cards is recognized as the first art NFT project on Ethereum. A complete set sold for $1.27 million at Christie's in October 2021. Features 30 cards by seven artists including Cryptograffiti's iconic BTC Keys.",
+    "article_url": "https://amycastor.com/2022/06/04/the-early-history-of-nfts-curio-cards",
+    "source": "Amy Castor",
+    "tags": ["crypto-art", "Ethereum", "history", "Christie's"]
+  },
+  {
+    "id": "rare-pepe-2016",
+    "title": "Rare Pepe: Bitcoin's Original Crypto Art Movement",
+    "artist": "Mike, Pepe_1337, Theo Goodman",
+    "collection": "Rare Pepe (2016 - 2018)",
+    "category": "crypto-art",
+    "summary": "Before the term 'NFT' existed, Rare Pepe launched in 2016 on Bitcoin's Counterparty protocol. Created by an open-source collective of 'Pepe Scientists,' the 36-series collection demonstrated the potential of blockchain-verified digital art years before Ethereum NFTs took off.",
+    "article_url": "https://www.rightclicksave.com/article/a-brief-history-of-rare-pepe",
+    "source": "Right Click Save",
+    "tags": ["crypto-art", "Bitcoin", "Counterparty", "history"]
+  },
+  {
+    "id": "spells-of-genesis-2015",
+    "title": "Spells of Genesis: The First Blockchain Trading Card Game",
+    "artist": "Spells of Genesis",
+    "collection": "Spells of Genesis (2015 - 2019)",
+    "category": "crypto-art",
+    "summary": "Beginning in 2015 on Bitcoin's Counterparty protocol, Spells of Genesis was the first on-chain economy game ever made — a trading card game that predated the NFT boom by years and pioneered the concept of blockchain-based digital collectibles.",
+    "article_url": "https://www.oldnft.com/collection/spells-of-genesis",
+    "source": "OldNFT.com",
+    "tags": ["crypto-art", "Bitcoin", "Counterparty", "gaming", "history"]
+  },
+  {
+    "id": "mooncats-2017",
+    "title": "MoonCats: The Rediscovered 2017 NFT Treasure",
+    "artist": "Ponderware",
+    "collection": "MoonCats",
+    "category": "crypto-art",
+    "summary": "Deployed in August 2017, MoonCats was one of the first generative art projects on Ethereum. After years of dormancy, NFT archaeologists rediscovered the project in 2021, triggering a rescue frenzy for all 25,600 pixel cats — including ultra-rare Genesis MoonCats.",
+    "article_url": "https://metaversal.banklesshq.com/p/the-ponderware-story",
+    "source": "Metaversal by Bankless",
+    "tags": ["crypto-art", "Ethereum", "generative", "history"]
+  },
+  {
+    "id": "kim-asendorf",
+    "title": "Kim Asendorf: From Pixel to Paradigm",
+    "artist": "Kim Asendorf",
+    "collection": "tr4ns4ctions, Reading a book",
+    "category": "generative-art",
+    "summary": "German visual artist Kim Asendorf is renowned for creating the open-source pixel-sorting algorithm that thousands of artists have used since 2012. A pioneer of generative and glitch art, he bridges conceptual strategies with algorithmic systems to create abstract animations and images. Featured in eight group exhibitions in 2023 and the youngest artist to produce work for the Venet Foundation's annual exhibition.",
+    "article_url": "https://log.fakewhale.xyz/kim-asendorf-from-pixel-to-paradigm",
+    "source": "Fakewhale LOG",
+    "tags": ["generative-art", "glitch", "pixel", "conceptual"]
+  },
+  {
+    "id": "kjetil-golid",
+    "title": "Kjetil Golid: Algorithms as Creative Expression",
+    "artist": "Kjetil Golid",
+    "collection": "Risk / Reward",
+    "category": "generative-art",
+    "summary": "Norwegian generative artist and system developer whose work starts with the question 'What would it look like if I did this?' His Art Blocks collection Risk/Reward (2024) features 4,000 algorithmically generated artworks. His work has been exhibited at Kate Vass Galerie, Museum of Contemporary Digital Art, and the Venice Biennale.",
+    "article_url": "https://www.lerandom.art/artists/kjetil-golid",
+    "source": "Le Random",
+    "tags": ["generative-art", "Art Blocks", "algorithms", "Norway"]
+  },
+  {
+    "id": "harm-van-den-dorpel",
+    "title": "Harm van den Dorpel: The First Artist to Sell Blockchain Art to a Museum",
+    "artist": "Harm van den Dorpel",
+    "collection": "Maschine",
+    "category": "animation",
+    "summary": "In 2015, Dutch artist Harm van den Dorpel became the first artist to sell artwork authenticated via blockchain to a museum — the MAK in Vienna acquired 'Event Listeners' using Bitcoin. A co-founder of left.gallery, he treats generative systems as a medium for thinking about mutation, decay, and distributed authorship.",
+    "article_url": "https://clotmag.com/interviews/harm-van-den-dorpel-art-beyond-the-internet-era",
+    "source": "CLOT Magazine",
+    "tags": ["animation", "pioneer", "museum", "blockchain"]
+  },
+  {
+    "id": "cryptograffiti",
+    "title": "Cryptograffiti: Bitcoin Activism Through Art",
+    "artist": "Cryptograffiti",
+    "collection": "My Curio Cards",
+    "category": "crypto-art",
+    "summary": "A Bitcoin activist artist who repurposes banking materials in his work, Cryptograffiti contributed three iconic cards to the historic Curio Cards project including BTC Keys, Mine Bitcoin, and BTC. He was the first artist Curio Cards founder Travis Uhrig met who made art about Bitcoin — helping others understand what the technology meant.",
+    "article_url": "https://medium.com/@curiocards/cryptograffiti-making-bitcoin-accessible-through-activist-art-4379d48f18db",
+    "source": "Curio Cards on Medium",
+    "tags": ["crypto-art", "Bitcoin", "activism", "Curio Cards"]
+  },
+  {
+    "id": "art-blocks",
+    "title": "Art Blocks: Building the Home for Generative Art on Chain",
+    "artist": "Erick 'Snowfro' Calderon",
+    "collection": "Art Blocks Collection",
+    "category": "generative-art",
+    "summary": "Founded in 2020 by Erick Calderon (Snowfro) with the release of Chromie Squiggle, Art Blocks became the premier platform for on-chain generative art. The platform lets artists deploy algorithms that generate unique artworks at the moment of minting — a model that revolutionized how digital art is created, collected, and valued.",
+    "article_url": "https://www.rightclicksave.com/article/an-interview-with-snowfro",
+    "source": "Right Click Save",
+    "tags": ["generative-art", "Art Blocks", "Snowfro", "platform"]
+  },
+  {
+    "id": "the-memes-6529",
+    "title": "The Memes by 6529: Spreading Decentralization Through Art",
+    "artist": "Killian Moore, Michael Hirshon, Camibus, threepanelcrimes",
+    "collection": "The Memes by 6529",
+    "category": "crypto-art",
+    "summary": "A multi-season NFT project by the pseudonymous crypto philosopher punk6529, who aims to onboard 100 million people to NFTs. The Memes collection leverages visual art to promote principles of decentralization, self-sovereignty, and an open metaverse — featuring collaborations with artists like XCOPY alongside community creators.",
+    "article_url": "https://members.delphidigital.io/reports/the-memes-by-6529",
+    "source": "Delphi Digital",
+    "tags": ["crypto-art", "memes", "6529", "open-metaverse"]
+  },
+  {
+    "id": "pridepunks-2018",
+    "title": "PridePunks: The First CryptoPunks Derivative and LGBTQ+ NFT Celebration",
+    "artist": "PridePunks",
+    "collection": "PridePunks 2018",
+    "category": "crypto-art",
+    "summary": "Launched in June 2018, PridePunks was the first-ever CryptoPunks derivative project — 9,638 rainbow-themed pixel characters celebrating Pride on the Ethereum blockchain. Time-stamped on-chain since 2018, it bridged CryptoPunks culture with an iconic celebration of LGBTQ+ identity in the crypto space.",
+    "article_url": "https://www.kucoin.com/news/community/ETH/699e8159a800a10007736f38",
+    "source": "KuCoin Community",
+    "tags": ["crypto-art", "Ethereum", "LGBTQ+", "derivative"]
+  },
+  {
+    "id": "melissa-wiederrecht",
+    "title": "Melissa Wiederrecht: Generative Pattern and Color Mastery",
+    "artist": "Melissa Wiederrecht",
+    "collection": "Shawq",
+    "category": "generative-art",
+    "summary": "Based in Saudi Arabia, Melissa Wiederrecht is universally recognized as one of the pre-eminent generative artists working today. With two Art Blocks releases and multiple collections on fxhash (Zbageti, Solitude, Orbs), her work is characterized by masterful use of line, color, and algorithmic precision.",
+    "article_url": "https://www.rightclicksave.com/article/the-interview-melissa-wiederrecht-generative-art",
+    "source": "Right Click Save",
+    "tags": ["generative-art", "fxhash", "Art Blocks", "color"]
+  }
+]

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured — p1xelDrifter Museum</title>
+    <meta name="description" content="Deep dives into the artists, collections, and history behind the p1xelDrifter Museum">
+    <meta property="og:title" content="Featured Artists & Collections — p1xelDrifter Museum">
+    <meta property="og:description" content="Explore articles about the pioneers, collections, and movements behind the NFTs in the museum">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230a0a0f'/><text x='4' y='22' font-family='monospace' font-size='14' fill='%2300ffff'>PX</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .featured-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 16px 48px;
+        }
+
+        .featured-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 24px;
+            transition: all 0.25s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .featured-card:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--neon-cyan);
+            box-shadow: var(--border-glow-cyan);
+            transform: translateY(-2px);
+        }
+
+        .featured-card-category {
+            display: inline-block;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            padding: 3px 10px;
+            border-radius: 3px;
+            margin-bottom: 12px;
+            width: fit-content;
+        }
+
+        .cat-generative-art { background: rgba(0, 255, 255, 0.12); color: var(--neon-cyan); border: 1px solid rgba(0, 255, 255, 0.3); }
+        .cat-ai-art { background: rgba(255, 0, 255, 0.12); color: var(--neon-magenta); border: 1px solid rgba(255, 0, 255, 0.3); }
+        .cat-animation { background: rgba(0, 255, 65, 0.12); color: var(--neon-green); border: 1px solid rgba(0, 255, 65, 0.3); }
+        .cat-photography { background: rgba(255, 255, 0, 0.12); color: var(--neon-yellow); border: 1px solid rgba(255, 255, 0, 0.3); }
+        .cat-crypto-art { background: rgba(255, 102, 0, 0.12); color: var(--neon-orange); border: 1px solid rgba(255, 102, 0, 0.3); }
+
+        .featured-card-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin: 0 0 8px;
+            line-height: 1.35;
+        }
+
+        .featured-card-meta {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+
+        .featured-card-meta strong {
+            color: var(--text-secondary);
+        }
+
+        .featured-card-summary {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            flex: 1;
+            margin-bottom: 16px;
+        }
+
+        .featured-card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-color);
+            padding-top: 12px;
+        }
+
+        .featured-card-link {
+            color: var(--neon-cyan);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.8rem;
+            letter-spacing: 0.05em;
+            transition: color 0.2s;
+        }
+
+        .featured-card-link:hover {
+            color: #fff;
+            text-shadow: var(--text-glow-cyan);
+        }
+
+        .featured-card-source {
+            font-style: italic;
+        }
+
+        .featured-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 10px;
+        }
+
+        .featured-tag {
+            font-size: 0.65rem;
+            padding: 2px 7px;
+            border-radius: 3px;
+            background: rgba(255, 255, 255, 0.06);
+            color: var(--text-muted);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        @media (max-width: 768px) {
+            .featured-grid {
+                grid-template-columns: 1fr;
+                padding: 0 12px 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/" class="nav-logo">
+            <img src="assets/logo-icon.webp" alt="p1xelDrifter" class="nav-logo-icon" width="33" height="48">
+            <span class="nav-logo-text">
+                <span class="nav-logo-main">p1xelDrifter</span>
+                <span class="nav-logo-sub">Museum</span>
+            </span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="generative-art.html">GENERATIVE ART</a></li>
+            <li><a href="ai-art.html">AI ART</a></li>
+            <li><a href="animation.html">ANIMATION</a></li>
+            <li><a href="photography.html">PHOTOGRAPHY</a></li>
+            <li><a href="crypto-art.html">CRYPTO ART</a></li>
+            <li><a href="featured.html" class="active">FEATURED</a></li>
+        </ul>
+        <a href="https://x.com/p1xeldr1fter" class="nav-social" target="_blank" rel="noopener" aria-label="X / Twitter" title="X / Twitter">
+            <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </nav>
+
+    <main class="content">
+        <div class="section-header" style="margin-bottom: 8px;">
+            <h1 class="section-title">FEATURED</h1>
+            <p class="section-subtitle">Deep dives into the artists, collections, and history behind the works in this museum</p>
+        </div>
+
+        <section class="featured-grid" id="featured-grid">
+            <!-- Populated by JS -->
+        </section>
+    </main>
+
+    <footer class="footer">
+        © 2026 p1xelDrifter Museum · Curated with ♥ · Built with Hermes Agent
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/background.js"></script>
+    <script>
+        async function loadFeatured() {
+            const grid = document.getElementById('featured-grid');
+            try {
+                const resp = await fetch('data/featured.json');
+                const items = await resp.json();
+                grid.innerHTML = items.map(item => `
+                    <article class="featured-card">
+                        <span class="featured-card-category cat-${item.category}">${item.category.replace('-', ' ')}</span>
+                        <h2 class="featured-card-title">${item.title}</h2>
+                        <div class="featured-card-meta">
+                            <strong>Artist${item.artist.includes(',') ? 's' : ''}:</strong> ${item.artist}<br>
+                            <strong>Collection:</strong> ${item.collection}
+                        </div>
+                        <p class="featured-card-summary">${item.summary}</p>
+                        <div class="featured-tags">
+                            ${item.tags.map(t => `<span class="featured-tag">#${t}</span>`).join('')}
+                        </div>
+                        <div class="featured-card-footer">
+                            <span class="featured-card-source">Via ${item.source}</span>
+                            <a href="${item.article_url}" target="_blank" rel="noopener" class="featured-card-link">READ →</a>
+                        </div>
+                    </article>
+                `).join('');
+            } catch (e) {
+                grid.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:48px;">Could not load featured articles.</p>';
+            }
+        }
+        loadFeatured();
+    </script>
+</body>
+</html>
