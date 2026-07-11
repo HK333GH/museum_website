@@ -264,6 +264,25 @@ a:focus:not(:focus-visible) {
   color: var(--neon-cyan);
 }
 
+/* ARTICLES link — visually distinct from category links */
+.nav-links .nav-articles {
+  color: var(--text-muted);
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.12em;
+  margin-left: var(--space-sm);
+  padding-left: var(--space-lg);
+  border-left: 1px solid var(--border-color);
+}
+
+.nav-links .nav-articles:hover,
+.nav-links .nav-articles.active {
+  color: var(--neon-yellow);
+}
+
+.nav-links .nav-articles::after {
+  background: var(--neon-yellow);
+}
+
 /* Mobile hamburger toggle */
 .nav-toggle {
   display: none;
