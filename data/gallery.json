@@ -898,6 +898,21 @@
     "thumbnail_url": "assets/images/thumbnails/anim-bacteria-4.webp"
   },
   {
+    "id": "anim-nami-24",
+    "title": "NAMI #24",
+    "artist": "MILK",
+    "collection": "NAMI",
+    "platform": "OpenSea",
+    "blockchain": "Ethereum",
+    "mint_date": "29 Dec 2023",
+    "item_number": "24",
+    "source_url": "https://opensea.io/item/ethereum/0x57d473a2854c0e225730081d18dcda6da41e1fd7/24",
+    "image_url": "https://raw2.seadn.io/ethereum/0x57d473a2854c0e225730081d18dcda6da41e1fd7/fcbb5d7a75c1f99568a93f804c4244/28fcbb5d7a75c1f99568a93f804c4244.mp4",
+    "category": "animation",
+    "sub_category": "OpenSea",
+    "thumbnail_url": "assets/images/thumbnails/anim-nami-24.webp"
+  },
+  {
     "id": "photo-eye-867490",
     "title": "Eye",
     "artist": "HAVIN",
