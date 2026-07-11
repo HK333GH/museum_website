@@ -1001,5 +1001,35 @@
     "category": "photography",
     "sub_category": "objkt.com",
     "thumbnail_url": "assets/images/thumbnails/photo-colours-dark-corners-0.webp"
+  },
+  {
+    "id": "photo-kun-yam-pawn-51768",
+    "title": "Kun Yam Street Pawn Shop",
+    "artist": "tz1TnXzzrtAGe4M6zA87AivgPbbuNJvXpjWh",
+    "collection": "hic et nunc",
+    "platform": "objkt.com",
+    "blockchain": "Tezos",
+    "mint_date": "27 Apr 2021",
+    "item_number": "51768",
+    "source_url": "https://objkt.com/tokens/hicetnunc/51768",
+    "image_url": "https://assets.objkt.media/file/assets-003/QmS2g9GYtuFJmv11PscrFGqBsi1sthcB6CjR2CBLYcgUdy/artifact",
+    "category": "photography",
+    "sub_category": "objkt.com",
+    "thumbnail_url": "assets/images/thumbnails/photo-kun-yam-pawn-51768.webp"
+  },
+  {
+    "id": "photo-tsuen-wan-pawn-48534",
+    "title": "Tsuen Wan Pawn Shop",
+    "artist": "tz1TnXzzrtAGe4M6zA87AivgPbbuNJvXpjWh",
+    "collection": "hic et nunc",
+    "platform": "objkt.com",
+    "blockchain": "Tezos",
+    "mint_date": "25 Apr 2021",
+    "item_number": "48534",
+    "source_url": "https://objkt.com/tokens/hicetnunc/48534",
+    "image_url": "https://assets.objkt.media/file/assets-003/QmQsVU5p7wnZEXmvxtsYz1TpbBsiwCNrfoJjggnhFbveHs/artifact",
+    "category": "photography",
+    "sub_category": "objkt.com",
+    "thumbnail_url": "assets/images/thumbnails/photo-tsuen-wan-pawn-48534.webp"
   }
 ]
