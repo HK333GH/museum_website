@@ -141,5 +141,71 @@
     "article_url": "https://www.rightclicksave.com/article/the-interview-melissa-wiederrecht-generative-art",
     "source": "Right Click Save",
     "tags": ["generative-art", "fxhash", "Art Blocks", "color"]
+  },
+  {
+    "id": "harvey-rayner",
+    "title": "Harvey Rayner: Algorithmic Synesthesia at Art Basel",
+    "artist": "Harvey Rayner",
+    "collection": "Algorithmic Synesthesia CC",
+    "category": "generative-art",
+    "summary": "Art Blocks talks with generative artist Harvey Rayner about his project Algorithmic Synesthesia, debuting at Art Basel's Zero 10. A Web3-based artist working at the intersection of algorithmic artistry, community building, and blockchain innovation, Rayner explores how code can translate sensory experience into visual form.",
+    "article_url": "https://www.artblocks.io/articles/harvey-rayner-art-basel",
+    "source": "Art Blocks",
+    "tags": ["generative-art", "Art Blocks", "Art Basel", "synesthesia"]
+  },
+  {
+    "id": "moodsoup",
+    "title": "Stefan Reyniers (Moodsoup): Cultivating Child-Like Wonder Through Code",
+    "artist": "Moodsoup",
+    "collection": "Linea Recta",
+    "category": "generative-art",
+    "summary": "Belgian graphic designer and web developer Stefan Reyniers, operating under the moniker Moodsoup, creates generative art that cultivates a child-like wonder about the workings of the world. His Art Blocks collection Linea Recta (2023) explores minimalist geometric compositions through algorithmic systems.",
+    "article_url": "https://www.digitalartsblog.com/artist-spotlights/10-digital-artists-reign-of-generative-art",
+    "source": "Digital Arts Blog",
+    "tags": ["generative-art", "Art Blocks", "minimalism", "Belgium"]
+  },
+  {
+    "id": "per-kristian-stoveland",
+    "title": "Per Kristian Stoveland: From Landscape Experiments to The Harvest",
+    "artist": "Per Kristian Stoveland",
+    "collection": "Echo of Intensity",
+    "category": "generative-art",
+    "summary": "Norwegian generative artist and creative coder Per Kristian Stoveland is known for works like The Harvest — a Dutch auction edition of 400 generative artworks — and the massive open edition Echo of Intensity. His practice began with landscape experimentations before evolving into beams, structures, and algorithmic atmospheres.",
+    "article_url": "https://digitalart.io/the-harvest-per-kristian-stoveland/",
+    "source": "digitalart.io",
+    "tags": ["generative-art", "Art Blocks", "Norway", "landscape"]
+  },
+  {
+    "id": "tyler-boswell",
+    "title": "Tyler Boswell (teaboswell): The fxhash Generative Force",
+    "artist": "teaboswell",
+    "collection": "September, ASSEMBLING MACHINE",
+    "category": "generative-art",
+    "summary": "Prolific fxhash artist Tyler Boswell, known as teaboswell, has released numerous generative collections including September, ASSEMBLING MACHINE, and Reunion. His work spans delicate floral patterns to mechanical assemblies, each exploring the boundaries of browser-based generative systems on the Tezos blockchain.",
+    "article_url": "https://pouretrebelle.com/post/729813282406514688/tyler-boswell",
+    "source": "Pour Être Belle",
+    "tags": ["generative-art", "fxhash", "Tezos", "code-art"]
+  },
+  {
+    "id": "aleksandra-jovanic",
+    "title": "Aleksandra Jovanić: Computer Scientist Turned Generative Artist",
+    "artist": "Aleksandra & GalerieData",
+    "collection": "Herbarium, The Anatomy of Fracture",
+    "category": "generative-art",
+    "summary": "Aleksandra Jovanić is an artist and programmer from Belgrade, Serbia, who holds a Doctorate in Digital Arts and a BSc in Computer Science. Influenced by Sol LeWitt's conceptualism, her work — including The Anatomy of Fracture series on fxhash — draws on minimalist principles to explore communication, miscommunication, and the unpredictable beauty of algorithmic systems.",
+    "article_url": "https://tgam.xyz/artist/aleksandra-jovanic",
+    "source": "The Generative Art Museum",
+    "tags": ["generative-art", "fxhash", "conceptual", "minimalism", "Serbia"]
+  },
+  {
+    "id": "alex-grasser",
+    "title": "Alex Grasser: Architectures of Code and Elasticity",
+    "artist": "@grasser_alex",
+    "collection": "Redundancy",
+    "category": "generative-art",
+    "summary": "Alexander Grasser-Parger is an architect, lecturer, researcher, and generative artist whose work explores real-time participatory digital design. His fxhash collections — Redundancy, Polyvalence, and Elasticity — investigate the ambiguity of discrete continuity in architecture, treating generative systems as resilient, self-assembling structures.",
+    "article_url": "https://alexandergrasser.com/Art",
+    "source": "Artist Website",
+    "tags": ["generative-art", "fxhash", "architecture", "participatory"]
   }
 ]
