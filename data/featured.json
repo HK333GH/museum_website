@@ -18,10 +18,10 @@
     "artist": "Larva Labs",
     "collection": "CryptoPunks V1 (wrapped)",
     "category": "crypto-art",
-    "summary": "Launched in June 2017 by Matt Hall and John Watkinson, CryptoPunks were among the first NFTs minted on Ethereum — 10,000 unique 24×24 pixel characters that became the prototype for digital collectibles and helped inspire the ERC-721 standard.",
-    "article_url": "https://www.larvalabs.com/cryptopunks",
-    "source": "Larva Labs",
-    "tags": ["crypto-art", "Ethereum", "history", "pioneer"]
+    "summary": "Launched in June 2017 by Larva Labs (Matt Hall and John Watkinson), CryptoPunks were among the first NFTs on Ethereum — 10,000 free-to-claim 24\u00d724 pixel characters. The original V1 contract carried a critical bug in the _offerpunkforsale function: buyers could withdraw the ETH they paid, effectively stealing the Punk. User \u201chemba\u201d discovered and exploited the flaw, heisting dozens before Larva Labs issued a patched V2 contract on 23 June 2017, re-minting all 10,000 Punks and airdropping them back to original claimants. The V1 Punks survive today as wrapped historical artifacts — the flawed but authentic birthplace of the PFP NFT.",
+    "article_url": "https://v1punks.gitbook.io/cryptopunks-v1-wiki/history-of-cryptopunks",
+    "source": "CryptoPunks V1 Wiki",
+    "tags": ["crypto-art", "Ethereum", "history", "pioneer", "v1-bug"]
   },
   {
     "id": "curio-cards-2017",
