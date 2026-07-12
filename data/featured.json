@@ -146,14 +146,14 @@
   {
     "id": "pridepunks-2018",
     "published": "2026-02-25",
-    "title": "PridePunks: The First CryptoPunks Derivative and LGBTQ+ NFT Celebration",
-    "artist": "PridePunks",
+    "title": "PridePunks 2018: A Political Art Statement for Inclusion",
+    "artist": "Dennison Bertram",
     "collection": "PridePunks 2018",
     "category": "crypto-art",
-    "summary": "Launched in June 2018, PridePunks was the first-ever CryptoPunks derivative project — 9,638 rainbow-themed pixel characters celebrating Pride on the Ethereum blockchain. Time-stamped on-chain since 2018, it bridged CryptoPunks culture with an iconic celebration of LGBTQ+ identity in the crypto space.",
-    "article_url": "https://www.kucoin.com/news/community/ETH/699e8159a800a10007736f38",
-    "source": "KuCoin Community",
-    "tags": ["crypto-art", "Ethereum", "LGBTQ+", "derivative"]
+    "summary": "Created by Dennison Bertram during Pride Month 2018, PridePunks is the first-ever CryptoPunks derivative — a political art statement that wrapped the iconic pixel PFP inside a rainbow banner. \u201cThe Rainbow felt like the most unambiguous statement that all would be welcome,\u201d Bertram said. After an initial buggy launch that integrated only two CryptoPunks, the contract was revived in 2022 alongside a DAO dedicated to funding LGBTQ+ inclusion and underrepresented voices in Web3.",
+    "article_url": "https://medium.com/@mauricedeguerin/pridepunks-2018-a-historic-nft-with-a-modern-mission-of-inclusion-and-diversity-4b8051fc4594",
+    "source": "Medium (Mauricedeguerin)",
+    "tags": ["crypto-art", "Ethereum", "LGBTQ+", "derivative", "DAO"]
   },
   {
     "id": "melissa-wiederrecht",
