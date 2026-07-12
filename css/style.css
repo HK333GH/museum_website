@@ -493,7 +493,7 @@ a:focus:not(:focus-visible) {
 
 .section-subtitle {
   font-size: var(--font-size-sm);
-  color: var(--neon-cyan);
+  color: var(--text-secondary);
   letter-spacing: 0.05em;
 }
 
@@ -510,10 +510,10 @@ a:focus:not(:focus-visible) {
 
 .gallery-group-title {
   font-size: var(--font-size-lg);
-  color: var(--neon-magenta);
+  color: var(--neon-cyan);
   margin-bottom: var(--space-md);
   padding-bottom: var(--space-xs);
-  border-bottom: 1px solid rgba(255, 0, 255, 0.2);
+  border-bottom: 1px solid rgba(95, 83, 247, 0.2);
   letter-spacing: 0.03em;
   display: flex;
   align-items: baseline;
