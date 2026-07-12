@@ -1,6 +1,7 @@
 [
   {
     "id": "cryptopunks-2017",
+    "published": "2024-06-01",
     "title": "CryptoPunks: The Rosetta Stone of NFTs",
     "artist": "Larva Labs",
     "collection": "CryptoPunks V1 (wrapped)",
@@ -12,6 +13,7 @@
   },
   {
     "id": "curio-cards-2017",
+    "published": "2022-06-04",
     "title": "Curio Cards: The First Art NFTs on Ethereum",
     "artist": "Cryptograffiti, Marisol Vengas, and others",
     "collection": "My Curio Cards",
@@ -23,6 +25,7 @@
   },
   {
     "id": "rare-pepe-2016",
+    "published": "2022-01-14",
     "title": "Rare Pepe: Bitcoin's Original Crypto Art Movement",
     "artist": "Mike, Pepe_1337, Theo Goodman",
     "collection": "Rare Pepe (2016 - 2018)",
@@ -34,6 +37,7 @@
   },
   {
     "id": "spells-of-genesis-2015",
+    "published": "2026-05-26",
     "title": "Spells of Genesis: The First Blockchain Trading Card Game",
     "artist": "Spells of Genesis",
     "collection": "Spells of Genesis (2015 - 2019)",
@@ -45,6 +49,7 @@
   },
   {
     "id": "mooncats-2017",
+    "published": "2021-11-23",
     "title": "MoonCats: The Rediscovered 2017 NFT Treasure",
     "artist": "Ponderware",
     "collection": "MoonCats",
@@ -56,6 +61,7 @@
   },
   {
     "id": "kim-asendorf",
+    "published": "2024-02-19",
     "title": "Kim Asendorf: From Pixel to Paradigm",
     "artist": "Kim Asendorf",
     "collection": "tr4ns4ctions, Reading a book",
@@ -67,6 +73,7 @@
   },
   {
     "id": "kjetil-golid",
+    "published": "2026-07-09",
     "title": "Kjetil Golid: Algorithms as Creative Expression",
     "artist": "Kjetil Golid",
     "collection": "Risk / Reward",
@@ -78,6 +85,7 @@
   },
   {
     "id": "harm-van-den-dorpel",
+    "published": "2022-05-23",
     "title": "Harm van den Dorpel: The First Artist to Sell Blockchain Art to a Museum",
     "artist": "Harm van den Dorpel",
     "collection": "Maschine",
@@ -89,6 +97,7 @@
   },
   {
     "id": "cryptograffiti",
+    "published": "2022-10-06",
     "title": "Cryptograffiti: Bitcoin Activism Through Art",
     "artist": "Cryptograffiti",
     "collection": "My Curio Cards",
@@ -100,6 +109,7 @@
   },
   {
     "id": "art-blocks",
+    "published": "2022-07-18",
     "title": "Art Blocks: Building the Home for Generative Art on Chain",
     "artist": "Erick 'Snowfro' Calderon",
     "collection": "Art Blocks Collection",
@@ -111,6 +121,7 @@
   },
   {
     "id": "the-memes-6529",
+    "published": "2023-01-31",
     "title": "The Memes by 6529: Spreading Decentralization Through Art",
     "artist": "Killian Moore, Michael Hirshon, Camibus, threepanelcrimes",
     "collection": "The Memes by 6529",
@@ -122,6 +133,7 @@
   },
   {
     "id": "pridepunks-2018",
+    "published": "2026-02-25",
     "title": "PridePunks: The First CryptoPunks Derivative and LGBTQ+ NFT Celebration",
     "artist": "PridePunks",
     "collection": "PridePunks 2018",
@@ -133,6 +145,7 @@
   },
   {
     "id": "melissa-wiederrecht",
+    "published": "2023-08-23",
     "title": "Melissa Wiederrecht: Generative Pattern and Color Mastery",
     "artist": "Melissa Wiederrecht",
     "collection": "Shawq",
@@ -144,6 +157,7 @@
   },
   {
     "id": "harvey-rayner",
+    "published": "2026-03-18",
     "title": "Harvey Rayner: Algorithmic Synesthesia at Art Basel",
     "artist": "Harvey Rayner",
     "collection": "Algorithmic Synesthesia CC",
@@ -155,6 +169,7 @@
   },
   {
     "id": "moodsoup",
+    "published": "2023-06-26",
     "title": "Stefan Reyniers (Moodsoup): Cultivating Child-Like Wonder Through Code",
     "artist": "Moodsoup",
     "collection": "Linea Recta",
@@ -166,6 +181,7 @@
   },
   {
     "id": "per-kristian-stoveland",
+    "published": "2023-07-24",
     "title": "Per Kristian Stoveland: From Landscape Experiments to The Harvest",
     "artist": "Per Kristian Stoveland",
     "collection": "Echo of Intensity",
@@ -177,6 +193,7 @@
   },
   {
     "id": "tyler-boswell",
+    "published": "2023-09-29",
     "title": "Tyler Boswell (teaboswell): The fxhash Generative Force",
     "artist": "teaboswell",
     "collection": "September, ASSEMBLING MACHINE",
@@ -188,6 +205,7 @@
   },
   {
     "id": "aleksandra-jovanic",
+    "published": "2024-03-15",
     "title": "Aleksandra Jovanić: Computer Scientist Turned Generative Artist",
     "artist": "Aleksandra & GalerieData",
     "collection": "Herbarium, The Anatomy of Fracture",
@@ -199,6 +217,7 @@
   },
   {
     "id": "alex-grasser",
+    "published": "2023-01-15",
     "title": "Alex Grasser: Architectures of Code and Elasticity",
     "artist": "@grasser_alex",
     "collection": "Redundancy",

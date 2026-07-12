@@ -182,6 +182,8 @@
             try {
                 const resp = await fetch('data/featured.json');
                 const items = await resp.json();
+                // Sort newest first by published date
+                items.sort((a, b) => new Date(b.published) - new Date(a.published));
                 grid.innerHTML = items.map(item => `
                     <article class="featured-card">
                         <span class="featured-card-category cat-${item.category}">${item.category.replace('-', ' ')}</span>
