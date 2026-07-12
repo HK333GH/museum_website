@@ -11,7 +11,7 @@
   --bg-card-hover: #181825;
 
   /* Neon accents */
-  --neon-cyan: #8389F9;
+  --neon-cyan: #6C73F8;
   --neon-magenta: #ff00ff;
   --neon-green: #00ff41;
   --neon-yellow: #ffff00;
@@ -24,9 +24,9 @@
 
   /* Borders & glows */
   --border-color: #2a2a3a;
-  --border-glow-cyan: 0 0 8px rgba(131, 137, 249, 0.4), 0 0 20px rgba(131, 137, 249, 0.1);
+  --border-glow-cyan: 0 0 8px rgba(108, 115, 248, 0.4), 0 0 20px rgba(108, 115, 248, 0.1);
   --border-glow-magenta: 0 0 8px rgba(255, 0, 255, 0.4), 0 0 20px rgba(255, 0, 255, 0.1);
-  --text-glow-cyan: 0 0 10px rgba(131, 137, 249, 0.6);
+  --text-glow-cyan: 0 0 10px rgba(108, 115, 248, 0.6);
 
   /* Typography */
   --font-mono: 'Roboto Mono', 'Courier New', monospace;
@@ -217,7 +217,7 @@ a:focus:not(:focus-visible) {
 .nav-logo:hover .nav-logo-main,
 .nav-logo:hover .nav-logo-sub {
   color: var(--neon-cyan);
-  text-shadow: 0 0 8px rgba(131, 137, 249, 0.5);
+  text-shadow: 0 0 8px rgba(108, 115, 248, 0.5);
 }
 
 /* Centered nav links — flex: 1 pushes the social icon to the right */
@@ -377,7 +377,7 @@ a:focus:not(:focus-visible) {
 /* Venue — cyber blue with glow */
 .hero-title-venue {
   color: var(--neon-cyan);
-  text-shadow: 0 0 12px rgba(131, 137, 249, 0.7), 0 0 40px rgba(131, 137, 249, 0.4);
+  text-shadow: 0 0 12px rgba(108, 115, 248, 0.7), 0 0 40px rgba(108, 115, 248, 0.4);
 }
 
 /* Glitch effect on hero title */
@@ -513,7 +513,7 @@ a:focus:not(:focus-visible) {
   color: var(--neon-cyan);
   margin-bottom: var(--space-md);
   padding-bottom: var(--space-xs);
-  border-bottom: 1px solid rgba(131, 137, 249, 0.2);
+  border-bottom: 1px solid rgba(108, 115, 248, 0.2);
   letter-spacing: 0.03em;
   display: flex;
   align-items: baseline;
