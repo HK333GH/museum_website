@@ -6,10 +6,17 @@
     "artist": "PerfectLoop",
     "collection": "Windows Shit / Game Shit / drifted",
     "category": "generative-art",
-    "summary": "Anonymous artist PerfectLoop builds hypnotic looping animations from the ghosts of old computer interfaces \u2014 Windows 98 dialogs, green-screen terminals, MIDI control panels \u2014 using Blender, TouchDesigner, and Cavalry. A former sound designer for indie games who was exiled from that world for his crypto enthusiasm, he stumbled into visual art while trying to make an album cover; the visuals \u201cate the whole practice.\u201d He works by a single rule: \u201cIf it\u2019s not a fuck yes, it\u2019s a no,\u201d picking the stupidest idea from a running list of hundreds each morning. Old interfaces, he says, are \u201cpinned to a map of time\u201d \u2014 fixed, weighty, nostalgic \u2014 while newer ones haven\u2019t settled yet.",
+    "summary": "Anonymous artist PerfectLoop builds hypnotic looping animations from the ghosts of old computer interfaces — Windows 98 dialogs, green-screen terminals, MIDI control panels — using Blender, TouchDesigner, and Cavalry. A former sound designer for indie games who was exiled from that world for his crypto enthusiasm, he stumbled into visual art while trying to make an album cover; the visuals “ate the whole practice.” He works by a single rule: “If it’s not a fuck yes, it’s a no,” picking the stupidest idea from a running list of hundreds each morning. Old interfaces, he says, are “pinned to a map of time” — fixed, weighty, nostalgic — while newer ones haven’t settled yet.",
     "article_url": "https://24hours.art/p/weekly-dose-of-art-48",
     "source": "24 Hours of Art",
-    "tags": ["generative-art", "PerfectLoop", "looping-animation", "retro-UI", "TouchDesigner", "Blender"]
+    "tags": [
+      "generative-art",
+      "PerfectLoop",
+      "looping-animation",
+      "retro-UI",
+      "TouchDesigner",
+      "Blender"
+    ]
   },
   {
     "id": "marisol-vengas",
@@ -21,79 +28,30 @@
     "summary": "Pseudonym of Chico-based artist Max Infeld, whose Curio Cards 27, 28, and 29 are among the first known generative artworks on Ethereum. Vengas hosted ad-hoc art-making sessions at a local café where passing strangers would contribute to the composition — each finished piece touched by many unrelated hands, a story written by the crowd. A computer-science student turned Fine Arts graduate, Infeld created community currencies predating Bitcoin and brought participatory art into the blockchain era.",
     "article_url": "https://docs.curio.cards/the-artists/marisol-vengas",
     "source": "Curio Cards Docs",
-    "tags": ["crypto-art", "Curio Cards", "generative-art", "Ethereum"]
+    "tags": [
+      "crypto-art",
+      "Curio Cards",
+      "generative-art",
+      "Ethereum"
+    ]
   },
   {
-    "id": "cryptopunks-2017",
-    "published": "2024-06-01",
-    "title": "CryptoPunks: The V1 Bug, the Heist, and the Birth of the PFP NFT",
-    "artist": "Larva Labs",
-    "collection": "CryptoPunks V1 (wrapped)",
-    "category": "crypto-art",
-    "summary": "Launched in June 2017 by Larva Labs (Matt Hall and John Watkinson), CryptoPunks were among the first NFTs on Ethereum — 10,000 free-to-claim 24\u00d724 pixel characters. The original V1 contract carried a critical bug in the _offerpunkforsale function: buyers could withdraw the ETH they paid, effectively stealing the Punk. User \u201chemba\u201d discovered and exploited the flaw, heisting dozens before Larva Labs issued a patched V2 contract on 23 June 2017, re-minting all 10,000 Punks and airdropping them back to original claimants. The V1 Punks survive today as wrapped historical artifacts — the flawed but authentic birthplace of the PFP NFT.",
-    "article_url": "https://v1punks.gitbook.io/cryptopunks-v1-wiki/history-of-cryptopunks",
-    "source": "CryptoPunks V1 Wiki",
-    "tags": ["crypto-art", "Ethereum", "history", "pioneer", "v1-bug"]
-  },
-  {
-    "id": "curio-cards-2017",
-    "published": "2022-06-04",
-    "title": "Curio Cards: The First Art NFTs on Ethereum",
-    "artist": "Cryptograffiti, Marisol Vengas, and others",
-    "collection": "My Curio Cards",
-    "category": "crypto-art",
-    "summary": "Launched on May 9, 2017 — six weeks before CryptoPunks — Curio Cards is recognized as the first art NFT project on Ethereum. A complete set sold for $1.27 million at Christie's in October 2021. Features 30 cards by seven artists including Cryptograffiti's iconic BTC Keys.",
-    "article_url": "https://amycastor.com/2022/06/04/the-early-history-of-nfts-curio-cards",
-    "source": "Amy Castor",
-    "tags": ["crypto-art", "Ethereum", "history", "Christie's"]
-  },
-  {
-    "id": "rare-pepe-2016",
-    "published": "2022-01-14",
-    "title": "Rare Pepe: Bitcoin's Original Crypto Art Movement",
-    "artist": "Mike, Pepe_1337, Theo Goodman",
-    "collection": "Rare Pepe (2016 - 2018)",
-    "category": "crypto-art",
-    "summary": "Before the term 'NFT' existed, Rare Pepe launched in 2016 on Bitcoin's Counterparty protocol. Created by an open-source collective of 'Pepe Scientists,' the 36-series collection demonstrated the potential of blockchain-verified digital art years before Ethereum NFTs took off.",
-    "article_url": "https://www.rightclicksave.com/article/a-brief-history-of-rare-pepe",
-    "source": "Right Click Save",
-    "tags": ["crypto-art", "Bitcoin", "Counterparty", "history"]
-  },
-  {
-    "id": "spells-of-genesis-2015",
-    "published": "2026-05-26",
-    "title": "Spells of Genesis: The First Blockchain Trading Card Game",
-    "artist": "Spells of Genesis",
-    "collection": "Spells of Genesis (2015 - 2019)",
-    "category": "crypto-art",
-    "summary": "Beginning in 2015 on Bitcoin's Counterparty protocol, Spells of Genesis was the first on-chain economy game ever made — a trading card game that predated the NFT boom by years and pioneered the concept of blockchain-based digital collectibles.",
-    "article_url": "https://www.oldnft.com/collection/spells-of-genesis",
-    "source": "OldNFT.com",
-    "tags": ["crypto-art", "Bitcoin", "Counterparty", "gaming", "history"]
-  },
-  {
-    "id": "mooncats-2017",
-    "published": "2021-11-23",
-    "title": "MoonCats: The Rediscovered 2017 NFT Treasure",
-    "artist": "Ponderware",
-    "collection": "MoonCats",
-    "category": "crypto-art",
-    "summary": "Deployed in August 2017, MoonCats was one of the first generative art projects on Ethereum. After years of dormancy, NFT archaeologists rediscovered the project in 2021, triggering a rescue frenzy for all 25,600 pixel cats — including ultra-rare Genesis MoonCats.",
-    "article_url": "https://metaversal.banklesshq.com/p/the-ponderware-story",
-    "source": "Metaversal by Bankless",
-    "tags": ["crypto-art", "Ethereum", "generative", "history"]
-  },
-  {
-    "id": "kim-asendorf",
-    "published": "2024-02-19",
-    "title": "Kim Asendorf: From Pixel to Paradigm",
-    "artist": "Kim Asendorf",
-    "collection": "tr4ns4ctions, Reading a book",
+    "id": "adam-berninger-truth",
+    "published": "2026-07-12",
+    "title": "Adam Berninger: The Truth of Generative Art",
+    "artist": "Adam Berninger",
+    "collection": "Truth (Feral File)",
     "category": "generative-art",
-    "summary": "German visual artist Kim Asendorf is renowned for creating the open-source pixel-sorting algorithm that thousands of artists have used since 2012. A pioneer of generative and glitch art, he bridges conceptual strategies with algorithmic systems to create abstract animations and images. Featured in eight group exhibitions in 2023 and the youngest artist to produce work for the Venet Foundation's annual exhibition.",
-    "article_url": "https://log.fakewhale.xyz/kim-asendorf-from-pixel-to-paradigm",
-    "source": "Fakewhale LOG",
-    "tags": ["generative-art", "glitch", "pixel", "conceptual"]
+    "summary": "Curator Adam Berninger’s Feral File exhibition “Truth” brought together seven generative artists — Tyler Boswell, Presstube x bzor, Ella Hoeppner, Charlotte Dann, David Seven, HAL09999, and Lisa Orth — to explore scale, abstraction, and inner truth. Inspired by Charles and Ray Eames’s 1977 film Powers of Ten, Berninger asked each artist to “obscure a specific perception of size,” revealing a common fabric across cosmic and microscopic scales. “There’s no wrong way to interpret an abstract work,” he says, “and so they’re all right, and therefore true.”",
+    "article_url": "https://www.rightclicksave.com/article/the-truth-of-generative-art-interview-adam-berninger-feral-file",
+    "source": "Right Click Save",
+    "tags": [
+      "generative-art",
+      "Feral File",
+      "curation",
+      "scale",
+      "abstraction"
+    ]
   },
   {
     "id": "kjetil-golid",
@@ -105,79 +63,31 @@
     "summary": "Norwegian generative artist and former system developer whose Velocity Series collaboration with Oracle Red Bull Racing and Bybit yielded two NFT collections: Decision Matrix — 377 algorithmically generated pieces encoding each Red Bull race as interlocking cogwheels and chip stacks — and Risk/Reward, a generative exploration of Formula 1's high-stakes dynamics where calculated risk and potential reward define the thin line between victory and defeat.",
     "article_url": "https://www.bybit.com/en/learn/web3/orbr-kjetil-golid-nft-collection",
     "source": "Bybit Learn",
-    "tags": ["generative-art", "NFT", "Formula 1", "Velocity Series", "Norway"]
+    "tags": [
+      "generative-art",
+      "NFT",
+      "Formula 1",
+      "Velocity Series",
+      "Norway"
+    ]
   },
   {
-    "id": "harm-van-den-dorpel",
-    "published": "2022-05-23",
-    "title": "Harm van den Dorpel: The First Artist to Sell Blockchain Art to a Museum",
-    "artist": "Harm van den Dorpel",
-    "collection": "Maschine",
-    "category": "animation",
-    "summary": "In 2015, Dutch artist Harm van den Dorpel became the first artist to sell artwork authenticated via blockchain to a museum — the MAK in Vienna acquired 'Event Listeners' using Bitcoin. A co-founder of left.gallery, he treats generative systems as a medium for thinking about mutation, decay, and distributed authorship.",
-    "article_url": "https://www.rightclicksave.com/article/when-stephanie-dinkins-met-harm-van-den-dorpel",
-    "source": "Right Click Save",
-    "tags": ["animation", "pioneer", "museum", "blockchain"]
-  },
-  {
-    "id": "cryptograffiti",
-    "published": "2022-10-06",
-    "title": "Cryptograffiti: Bitcoin Activism Through Art",
-    "artist": "Cryptograffiti",
-    "collection": "My Curio Cards",
+    "id": "spells-of-genesis-2015",
+    "published": "2026-05-26",
+    "title": "Spells of Genesis: The First Blockchain Trading Card Game",
+    "artist": "Spells of Genesis",
+    "collection": "Spells of Genesis (2015 - 2019)",
     "category": "crypto-art",
-    "summary": "A Bitcoin activist artist who repurposes banking materials in his work, Cryptograffiti contributed three iconic cards to the historic Curio Cards project including BTC Keys, Mine Bitcoin, and BTC. He was the first artist Curio Cards founder Travis Uhrig met who made art about Bitcoin — helping others understand what the technology meant.",
-    "article_url": "https://medium.com/@curiocards/cryptograffiti-making-bitcoin-accessible-through-activist-art-4379d48f18db",
-    "source": "Curio Cards on Medium",
-    "tags": ["crypto-art", "Bitcoin", "activism", "Curio Cards"]
-  },
-  {
-    "id": "art-blocks",
-    "published": "2022-07-18",
-    "title": "Art Blocks: Building the Home for Generative Art on Chain",
-    "artist": "Erick 'Snowfro' Calderon",
-    "collection": "Art Blocks Collection",
-    "category": "generative-art",
-    "summary": "Founded in 2020 by Erick Calderon (Snowfro) with the release of Chromie Squiggle, Art Blocks became the premier platform for on-chain generative art. The platform lets artists deploy algorithms that generate unique artworks at the moment of minting — a model that revolutionized how digital art is created, collected, and valued.",
-    "article_url": "https://www.rightclicksave.com/article/an-interview-with-snowfro",
-    "source": "Right Click Save",
-    "tags": ["generative-art", "Art Blocks", "Snowfro", "platform"]
-  },
-  {
-    "id": "the-memes-6529",
-    "published": "2023-01-31",
-    "title": "The Memes by 6529: Spreading Decentralization Through Art",
-    "artist": "Killian Moore, Michael Hirshon, Camibus, threepanelcrimes",
-    "collection": "The Memes by 6529",
-    "category": "crypto-art",
-    "summary": "A multi-season NFT project by the pseudonymous crypto philosopher punk6529, who aims to onboard 100 million people to NFTs. The Memes collection leverages visual art to promote principles of decentralization, self-sovereignty, and an open metaverse — featuring collaborations with artists like XCOPY alongside community creators.",
-    "article_url": "https://members.delphidigital.io/reports/the-memes-by-6529",
-    "source": "Delphi Digital",
-    "tags": ["crypto-art", "memes", "6529", "open-metaverse"]
-  },
-  {
-    "id": "pridepunks-2018",
-    "published": "2026-02-25",
-    "title": "PridePunks 2018: A Political Art Statement for Inclusion",
-    "artist": "Dennison Bertram",
-    "collection": "PridePunks 2018",
-    "category": "crypto-art",
-    "summary": "Created by Dennison Bertram during Pride Month 2018, PridePunks is the first-ever CryptoPunks derivative — a political art statement that wrapped the iconic pixel PFP inside a rainbow banner. \u201cThe Rainbow felt like the most unambiguous statement that all would be welcome,\u201d Bertram said. After an initial buggy launch that integrated only two CryptoPunks, the contract was revived in 2022 alongside a DAO dedicated to funding LGBTQ+ inclusion and underrepresented voices in Web3.",
-    "article_url": "https://medium.com/@mauricedeguerin/pridepunks-2018-a-historic-nft-with-a-modern-mission-of-inclusion-and-diversity-4b8051fc4594",
-    "source": "Medium (Mauricedeguerin)",
-    "tags": ["crypto-art", "Ethereum", "LGBTQ+", "derivative", "DAO"]
-  },
-  {
-    "id": "melissa-wiederrecht",
-    "published": "2023-08-23",
-    "title": "Melissa Wiederrecht: Generative Pattern and Color Mastery",
-    "artist": "Melissa Wiederrecht",
-    "collection": "Shawq",
-    "category": "generative-art",
-    "summary": "Based in Saudi Arabia, Melissa Wiederrecht is universally recognized as one of the pre-eminent generative artists working today. With two Art Blocks releases and multiple collections on fxhash (Zbageti, Solitude, Orbs), her work is characterized by masterful use of line, color, and algorithmic precision.",
-    "article_url": "https://www.rightclicksave.com/article/the-interview-melissa-wiederrecht-generative-art",
-    "source": "Right Click Save",
-    "tags": ["generative-art", "fxhash", "Art Blocks", "color"]
+    "summary": "Beginning in 2015 on Bitcoin's Counterparty protocol, Spells of Genesis was the first on-chain economy game ever made — a trading card game that predated the NFT boom by years and pioneered the concept of blockchain-based digital collectibles.",
+    "article_url": "https://www.oldnft.com/collection/spells-of-genesis",
+    "source": "OldNFT.com",
+    "tags": [
+      "crypto-art",
+      "Bitcoin",
+      "Counterparty",
+      "gaming",
+      "history"
+    ]
   },
   {
     "id": "harvey-rayner",
@@ -189,43 +99,48 @@
     "summary": "Art Blocks talks with generative artist Harvey Rayner about his project Algorithmic Synesthesia, debuting at Art Basel's Zero 10. A Web3-based artist working at the intersection of algorithmic artistry, community building, and blockchain innovation, Rayner explores how code can translate sensory experience into visual form.",
     "article_url": "https://www.artblocks.io/articles/harvey-rayner-art-basel",
     "source": "Art Blocks",
-    "tags": ["generative-art", "Art Blocks", "Art Basel", "synesthesia"]
+    "tags": [
+      "generative-art",
+      "Art Blocks",
+      "Art Basel",
+      "synesthesia"
+    ]
   },
   {
-    "id": "10-digital-artists-generative",
-    "published": "2023-06-26",
-    "title": "10 Digital Artists: The Reign of Generative Art",
-    "artist": "Ivona Tau, Sarah Ridgley, Kaoru Tanaka, Marcelo Soria Rodríguez, Emily Xie, Artemis, Anna Lucia, Studio Moodsoup, Melissa Wiederrecht, Shunsuke Takawo",
-    "collection": "Various",
-    "category": "generative-art",
-    "summary": "A survey of 10 generative artists shaping the field: Ivona Tau (AI-generated universal memories), Sarah Ridgley (algorithmic botanicals), Kaoru Tanaka (code-driven calligraphy), Marcelo Soria Rodríguez (data sonification), Emily Xie (textile-inspired algorithms), Artemis (glitch aesthetics), Anna Lucia (generative identity), Studio Moodsoup / Stefan Reyniers (child-like wonder through minimalist geometry), Melissa Wiederrecht (pattern and color mastery), and Shunsuke Takawo (daily code sketches). Together they map the expanding terrain where code, chance, and human intent converge.",
-    "article_url": "https://www.digitalartsblog.com/artist-spotlights/10-digital-artists-reign-of-generative-art",
-    "source": "Digital Arts Blog",
-    "tags": ["generative-art", "survey", "Moodsoup", "Melissa Wiederrecht", "AI", "code-art"]
+    "id": "pridepunks-2018",
+    "published": "2026-02-25",
+    "title": "PridePunks 2018: A Political Art Statement for Inclusion",
+    "artist": "Dennison Bertram",
+    "collection": "PridePunks 2018",
+    "category": "crypto-art",
+    "summary": "Created by Dennison Bertram during Pride Month 2018, PridePunks is the first-ever CryptoPunks derivative — a political art statement that wrapped the iconic pixel PFP inside a rainbow banner. “The Rainbow felt like the most unambiguous statement that all would be welcome,” Bertram said. After an initial buggy launch that integrated only two CryptoPunks, the contract was revived in 2022 alongside a DAO dedicated to funding LGBTQ+ inclusion and underrepresented voices in Web3.",
+    "article_url": "https://medium.com/@mauricedeguerin/pridepunks-2018-a-historic-nft-with-a-modern-mission-of-inclusion-and-diversity-4b8051fc4594",
+    "source": "Medium (Mauricedeguerin)",
+    "tags": [
+      "crypto-art",
+      "Ethereum",
+      "LGBTQ+",
+      "derivative",
+      "DAO"
+    ]
   },
   {
-    "id": "per-kristian-stoveland",
-    "published": "2023-07-24",
-    "title": "Per Kristian Stoveland: Pursuit and the Velocity Series",
-    "artist": "Per Kristian Stoveland",
-    "collection": "Pursuit / Echo of Intensity",
-    "category": "generative-art",
-    "summary": "Norwegian generative artist Per Kristian Stoveland\u2019s Velocity Series collections \u2014 Pursuit and Echo of Intensity \u2014 were commissioned by Oracle Red Bull Racing and Bybit. Pursuit channels the spectral beauty of open-shutter night photography: streaks of light carving through dark Norwegian-inspired landscapes, with F1 track geometries (curves, chicanes, parabolicas) embedded as algorithmic trait systems. A self-taught coder who transitioned from conventional art in 2021, Stoveland lets coding anomalies guide his process \u2014 relinquishing exact expectations to let the algorithm surprise him.",
-    "article_url": "https://digitalart.io/pursuit-per-kristian-stoveland/",
-    "source": "digitalart.io",
-    "tags": ["generative-art", "Velocity Series", "Formula 1", "Norway", "landscape"]
-  },
-  {
-    "id": "adam-berninger-truth",
-    "published": "2026-07-12",
-    "title": "Adam Berninger: The Truth of Generative Art",
-    "artist": "Adam Berninger",
-    "collection": "Truth (Feral File)",
-    "category": "generative-art",
-    "summary": "Curator Adam Berninger\u2019s Feral File exhibition \u201cTruth\u201d brought together seven generative artists \u2014 Tyler Boswell, Presstube x bzor, Ella Hoeppner, Charlotte Dann, David Seven, HAL09999, and Lisa Orth \u2014 to explore scale, abstraction, and inner truth. Inspired by Charles and Ray Eames\u2019s 1977 film Powers of Ten, Berninger asked each artist to \u201cobscure a specific perception of size,\u201d revealing a common fabric across cosmic and microscopic scales. \u201cThere\u2019s no wrong way to interpret an abstract work,\u201d he says, \u201cand so they\u2019re all right, and therefore true.\u201d",
-    "article_url": "https://www.rightclicksave.com/article/the-truth-of-generative-art-interview-adam-berninger-feral-file",
-    "source": "Right Click Save",
-    "tags": ["generative-art", "Feral File", "curation", "scale", "abstraction"]
+    "id": "cryptopunks-2017",
+    "published": "2024-06-01",
+    "title": "CryptoPunks: The V1 Bug, the Heist, and the Birth of the PFP NFT",
+    "artist": "Larva Labs",
+    "collection": "CryptoPunks V1 (wrapped)",
+    "category": "crypto-art",
+    "summary": "Launched in June 2017 by Larva Labs (Matt Hall and John Watkinson), CryptoPunks were among the first NFTs on Ethereum — 10,000 free-to-claim 24×24 pixel characters. The original V1 contract carried a critical bug in the _offerpunkforsale function: buyers could withdraw the ETH they paid, effectively stealing the Punk. User “hemba” discovered and exploited the flaw, heisting dozens before Larva Labs issued a patched V2 contract on 23 June 2017, re-minting all 10,000 Punks and airdropping them back to original claimants. The V1 Punks survive today as wrapped historical artifacts — the flawed but authentic birthplace of the PFP NFT.",
+    "article_url": "https://v1punks.gitbook.io/cryptopunks-v1-wiki/history-of-cryptopunks",
+    "source": "CryptoPunks V1 Wiki",
+    "tags": [
+      "crypto-art",
+      "Ethereum",
+      "history",
+      "pioneer",
+      "v1-bug"
+    ]
   },
   {
     "id": "aleksandra-jovanic",
@@ -237,7 +152,101 @@
     "summary": "Aleksandra Jovanić is an artist and programmer from Belgrade, Serbia, who holds a Doctorate in Digital Arts and a BSc in Computer Science. Influenced by Sol LeWitt's conceptualism, her work — including The Anatomy of Fracture series on fxhash — draws on minimalist principles to explore communication, miscommunication, and the unpredictable beauty of algorithmic systems.",
     "article_url": "https://tgam.xyz/artist/aleksandra-jovanic",
     "source": "The Generative Art Museum",
-    "tags": ["generative-art", "fxhash", "conceptual", "minimalism", "Serbia"]
+    "tags": [
+      "generative-art",
+      "fxhash",
+      "conceptual",
+      "minimalism",
+      "Serbia"
+    ]
+  },
+  {
+    "id": "kim-asendorf",
+    "published": "2024-02-19",
+    "title": "Kim Asendorf: From Pixel to Paradigm",
+    "artist": "Kim Asendorf",
+    "collection": "tr4ns4ctions, Reading a book",
+    "category": "generative-art",
+    "summary": "German visual artist Kim Asendorf is renowned for creating the open-source pixel-sorting algorithm that thousands of artists have used since 2012. A pioneer of generative and glitch art, he bridges conceptual strategies with algorithmic systems to create abstract animations and images. Featured in eight group exhibitions in 2023 and the youngest artist to produce work for the Venet Foundation's annual exhibition.",
+    "article_url": "https://log.fakewhale.xyz/kim-asendorf-from-pixel-to-paradigm",
+    "source": "Fakewhale LOG",
+    "tags": [
+      "generative-art",
+      "glitch",
+      "pixel",
+      "conceptual"
+    ]
+  },
+  {
+    "id": "melissa-wiederrecht",
+    "published": "2023-08-23",
+    "title": "Melissa Wiederrecht: Generative Pattern and Color Mastery",
+    "artist": "Melissa Wiederrecht",
+    "collection": "Shawq",
+    "category": "generative-art",
+    "summary": "Based in Saudi Arabia, Melissa Wiederrecht is universally recognized as one of the pre-eminent generative artists working today. With two Art Blocks releases and multiple collections on fxhash (Zbageti, Solitude, Orbs), her work is characterized by masterful use of line, color, and algorithmic precision.",
+    "article_url": "https://www.rightclicksave.com/article/the-interview-melissa-wiederrecht-generative-art",
+    "source": "Right Click Save",
+    "tags": [
+      "generative-art",
+      "fxhash",
+      "Art Blocks",
+      "color"
+    ]
+  },
+  {
+    "id": "per-kristian-stoveland",
+    "published": "2023-07-24",
+    "title": "Per Kristian Stoveland: Pursuit and the Velocity Series",
+    "artist": "Per Kristian Stoveland",
+    "collection": "Pursuit / Echo of Intensity",
+    "category": "generative-art",
+    "summary": "Norwegian generative artist Per Kristian Stoveland’s Velocity Series collections — Pursuit and Echo of Intensity — were commissioned by Oracle Red Bull Racing and Bybit. Pursuit channels the spectral beauty of open-shutter night photography: streaks of light carving through dark Norwegian-inspired landscapes, with F1 track geometries (curves, chicanes, parabolicas) embedded as algorithmic trait systems. A self-taught coder who transitioned from conventional art in 2021, Stoveland lets coding anomalies guide his process — relinquishing exact expectations to let the algorithm surprise him.",
+    "article_url": "https://digitalart.io/pursuit-per-kristian-stoveland/",
+    "source": "digitalart.io",
+    "tags": [
+      "generative-art",
+      "Velocity Series",
+      "Formula 1",
+      "Norway",
+      "landscape"
+    ]
+  },
+  {
+    "id": "10-digital-artists-generative",
+    "published": "2023-06-26",
+    "title": "10 Digital Artists: The Reign of Generative Art",
+    "artist": "Ivona Tau, Sarah Ridgley, Kaoru Tanaka, Marcelo Soria Rodríguez, Emily Xie, Artemis, Anna Lucia, Studio Moodsoup, Melissa Wiederrecht, Shunsuke Takawo",
+    "collection": "Various",
+    "category": "generative-art",
+    "summary": "A survey of 10 generative artists shaping the field: Ivona Tau (AI-generated universal memories), Sarah Ridgley (algorithmic botanicals), Kaoru Tanaka (code-driven calligraphy), Marcelo Soria Rodríguez (data sonification), Emily Xie (textile-inspired algorithms), Artemis (glitch aesthetics), Anna Lucia (generative identity), Studio Moodsoup / Stefan Reyniers (child-like wonder through minimalist geometry), Melissa Wiederrecht (pattern and color mastery), and Shunsuke Takawo (daily code sketches). Together they map the expanding terrain where code, chance, and human intent converge.",
+    "article_url": "https://www.digitalartsblog.com/artist-spotlights/10-digital-artists-reign-of-generative-art",
+    "source": "Digital Arts Blog",
+    "tags": [
+      "generative-art",
+      "survey",
+      "Moodsoup",
+      "Melissa Wiederrecht",
+      "AI",
+      "code-art"
+    ]
+  },
+  {
+    "id": "the-memes-6529",
+    "published": "2023-01-31",
+    "title": "The Memes by 6529: Spreading Decentralization Through Art",
+    "artist": "Killian Moore, Michael Hirshon, Camibus, threepanelcrimes",
+    "collection": "The Memes by 6529",
+    "category": "crypto-art",
+    "summary": "A multi-season NFT project by the pseudonymous crypto philosopher punk6529, who aims to onboard 100 million people to NFTs. The Memes collection leverages visual art to promote principles of decentralization, self-sovereignty, and an open metaverse — featuring collaborations with artists like XCOPY alongside community creators.",
+    "article_url": "https://members.delphidigital.io/reports/the-memes-by-6529",
+    "source": "Delphi Digital",
+    "tags": [
+      "crypto-art",
+      "memes",
+      "6529",
+      "open-metaverse"
+    ]
   },
   {
     "id": "alex-grasser",
@@ -249,6 +258,113 @@
     "summary": "Alexander Grasser-Parger is an architect, lecturer, researcher, and generative artist whose work explores real-time participatory digital design. His fxhash collections — Redundancy, Polyvalence, and Elasticity — investigate the ambiguity of discrete continuity in architecture, treating generative systems as resilient, self-assembling structures.",
     "article_url": "https://alexandergrasser.com/Art",
     "source": "Artist Website",
-    "tags": ["generative-art", "fxhash", "architecture", "participatory"]
+    "tags": [
+      "generative-art",
+      "fxhash",
+      "architecture",
+      "participatory"
+    ]
+  },
+  {
+    "id": "cryptograffiti",
+    "published": "2022-10-06",
+    "title": "Cryptograffiti: Bitcoin Activism Through Art",
+    "artist": "Cryptograffiti",
+    "collection": "My Curio Cards",
+    "category": "crypto-art",
+    "summary": "A Bitcoin activist artist who repurposes banking materials in his work, Cryptograffiti contributed three iconic cards to the historic Curio Cards project including BTC Keys, Mine Bitcoin, and BTC. He was the first artist Curio Cards founder Travis Uhrig met who made art about Bitcoin — helping others understand what the technology meant.",
+    "article_url": "https://medium.com/@curiocards/cryptograffiti-making-bitcoin-accessible-through-activist-art-4379d48f18db",
+    "source": "Curio Cards on Medium",
+    "tags": [
+      "crypto-art",
+      "Bitcoin",
+      "activism",
+      "Curio Cards"
+    ]
+  },
+  {
+    "id": "art-blocks",
+    "published": "2022-07-18",
+    "title": "Art Blocks: Building the Home for Generative Art on Chain",
+    "artist": "Erick 'Snowfro' Calderon",
+    "collection": "Art Blocks Collection",
+    "category": "generative-art",
+    "summary": "Founded in 2020 by Erick Calderon (Snowfro) with the release of Chromie Squiggle, Art Blocks became the premier platform for on-chain generative art. The platform lets artists deploy algorithms that generate unique artworks at the moment of minting — a model that revolutionized how digital art is created, collected, and valued.",
+    "article_url": "https://www.rightclicksave.com/article/an-interview-with-snowfro",
+    "source": "Right Click Save",
+    "tags": [
+      "generative-art",
+      "Art Blocks",
+      "Snowfro",
+      "platform"
+    ]
+  },
+  {
+    "id": "curio-cards-2017",
+    "published": "2022-06-04",
+    "title": "Curio Cards: The First Art NFTs on Ethereum",
+    "artist": "Cryptograffiti, Marisol Vengas, and others",
+    "collection": "My Curio Cards",
+    "category": "crypto-art",
+    "summary": "Launched on May 9, 2017 — six weeks before CryptoPunks — Curio Cards is recognized as the first art NFT project on Ethereum. A complete set sold for $1.27 million at Christie's in October 2021. Features 30 cards by seven artists including Cryptograffiti's iconic BTC Keys.",
+    "article_url": "https://amycastor.com/2022/06/04/the-early-history-of-nfts-curio-cards",
+    "source": "Amy Castor",
+    "tags": [
+      "crypto-art",
+      "Ethereum",
+      "history",
+      "Christie's"
+    ]
+  },
+  {
+    "id": "harm-van-den-dorpel",
+    "published": "2022-05-23",
+    "title": "Harm van den Dorpel: The First Artist to Sell Blockchain Art to a Museum",
+    "artist": "Harm van den Dorpel",
+    "collection": "Maschine",
+    "category": "animation",
+    "summary": "In 2015, Dutch artist Harm van den Dorpel became the first artist to sell artwork authenticated via blockchain to a museum — the MAK in Vienna acquired 'Event Listeners' using Bitcoin. A co-founder of left.gallery, he treats generative systems as a medium for thinking about mutation, decay, and distributed authorship.",
+    "article_url": "https://www.rightclicksave.com/article/when-stephanie-dinkins-met-harm-van-den-dorpel",
+    "source": "Right Click Save",
+    "tags": [
+      "animation",
+      "pioneer",
+      "museum",
+      "blockchain"
+    ]
+  },
+  {
+    "id": "rare-pepe-2016",
+    "published": "2022-01-14",
+    "title": "Rare Pepe: Bitcoin's Original Crypto Art Movement",
+    "artist": "Mike, Pepe_1337, Theo Goodman",
+    "collection": "Rare Pepe (2016 - 2018)",
+    "category": "crypto-art",
+    "summary": "Before the term 'NFT' existed, Rare Pepe launched in 2016 on Bitcoin's Counterparty protocol. Created by an open-source collective of 'Pepe Scientists,' the 36-series collection demonstrated the potential of blockchain-verified digital art years before Ethereum NFTs took off.",
+    "article_url": "https://www.rightclicksave.com/article/a-brief-history-of-rare-pepe",
+    "source": "Right Click Save",
+    "tags": [
+      "crypto-art",
+      "Bitcoin",
+      "Counterparty",
+      "history"
+    ]
+  },
+  {
+    "id": "mooncats-2017",
+    "published": "2021-11-23",
+    "title": "MoonCats: The Rediscovered 2017 NFT Treasure",
+    "artist": "Ponderware",
+    "collection": "MoonCats",
+    "category": "crypto-art",
+    "summary": "Deployed in August 2017, MoonCats was one of the first generative art projects on Ethereum. After years of dormancy, NFT archaeologists rediscovered the project in 2021, triggering a rescue frenzy for all 25,600 pixel cats — including ultra-rare Genesis MoonCats.",
+    "article_url": "https://metaversal.banklesshq.com/p/the-ponderware-story",
+    "source": "Metaversal by Bankless",
+    "tags": [
+      "crypto-art",
+      "Ethereum",
+      "generative",
+      "history"
+    ]
   }
 ]
