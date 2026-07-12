@@ -1,0 +1,28 @@
+{
+  "name": "p1xeldrifter-museum",
+  "version": "1.0.0",
+  "description": "p1xelDrifter Museum - A curated collection of digital art and historically significant NFTs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HK333GH/museum_website.git"
+  },
+  "keywords": [
+    "museum",
+    "nft",
+    "digital-art",
+    "analytics"
+  ],
+  "author": "p1xelDrifter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HK333GH/museum_website/issues"
+  },
+  "homepage": "https://github.com/HK333GH/museum_website#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
