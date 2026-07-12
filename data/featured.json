@@ -1,5 +1,17 @@
 [
   {
+    "id": "perfectloop",
+    "published": "2026-07-12",
+    "title": "PerfectLoop: Looping Worlds and the Ghosts of Old Interfaces",
+    "artist": "PerfectLoop",
+    "collection": "Windows Shit / Game Shit / drifted",
+    "category": "generative-art",
+    "summary": "Anonymous artist PerfectLoop builds hypnotic looping animations from the ghosts of old computer interfaces \u2014 Windows 98 dialogs, green-screen terminals, MIDI control panels \u2014 using Blender, TouchDesigner, and Cavalry. A former sound designer for indie games who was exiled from that world for his crypto enthusiasm, he stumbled into visual art while trying to make an album cover; the visuals \u201cate the whole practice.\u201d He works by a single rule: \u201cIf it\u2019s not a fuck yes, it\u2019s a no,\u201d picking the stupidest idea from a running list of hundreds each morning. Old interfaces, he says, are \u201cpinned to a map of time\u201d \u2014 fixed, weighty, nostalgic \u2014 while newer ones haven\u2019t settled yet.",
+    "article_url": "https://24hours.art/p/weekly-dose-of-art-48",
+    "source": "24 Hours of Art",
+    "tags": ["generative-art", "PerfectLoop", "looping-animation", "retro-UI", "TouchDesigner", "Blender"]
+  },
+  {
     "id": "marisol-vengas",
     "published": "2026-07-12",
     "title": "Marisol Vengas: Art as Social Engagement",
