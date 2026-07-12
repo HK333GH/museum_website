@@ -269,6 +269,7 @@ a:focus:not(:focus-visible) {
   color: var(--text-muted);
   font-size: var(--font-size-xs);
   letter-spacing: 0.12em;
+  text-transform: none;
   margin-left: var(--space-sm);
   padding-left: var(--space-lg);
   border-left: 1px solid var(--border-color);
