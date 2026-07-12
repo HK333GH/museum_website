@@ -1,5 +1,17 @@
 [
   {
+    "id": "marisol-vengas",
+    "published": "2026-07-12",
+    "title": "Marisol Vengas: Art as Social Engagement",
+    "artist": "Marisol Vengas (Max Infeld)",
+    "collection": "Curio Cards 27–29",
+    "category": "crypto-art",
+    "summary": "Pseudonym of Chico-based artist Max Infeld, whose Curio Cards 27, 28, and 29 are among the first known generative artworks on Ethereum. Vengas hosted ad-hoc art-making sessions at a local café where passing strangers would contribute to the composition — each finished piece touched by many unrelated hands, a story written by the crowd. A computer-science student turned Fine Arts graduate, Infeld created community currencies predating Bitcoin and brought participatory art into the blockchain era.",
+    "article_url": "https://docs.curio.cards/the-artists/marisol-vengas",
+    "source": "Curio Cards Docs",
+    "tags": ["crypto-art", "Curio Cards", "generative-art", "Ethereum"]
+  },
+  {
     "id": "cryptopunks-2017",
     "published": "2024-06-01",
     "title": "CryptoPunks: The Rosetta Stone of NFTs",
