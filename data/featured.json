@@ -76,12 +76,12 @@
     "published": "2026-07-09",
     "title": "Kjetil Golid: Algorithms as Creative Expression",
     "artist": "Kjetil Golid",
-    "collection": "Risk / Reward",
+    "collection": "Decision Matrix / Risk/Reward",
     "category": "generative-art",
-    "summary": "Norwegian generative artist and system developer whose work starts with the question 'What would it look like if I did this?' His Art Blocks collection Risk/Reward (2024) features 4,000 algorithmically generated artworks. His work has been exhibited at Kate Vass Galerie, Museum of Contemporary Digital Art, and the Venice Biennale.",
-    "article_url": "https://www.lerandom.art/artists/kjetil-golid",
-    "source": "Le Random",
-    "tags": ["generative-art", "Art Blocks", "algorithms", "Norway"]
+    "summary": "Norwegian generative artist and former system developer whose Velocity Series collaboration with Oracle Red Bull Racing and Bybit yielded two NFT collections: Decision Matrix — 377 algorithmically generated pieces encoding each Red Bull race as interlocking cogwheels and chip stacks — and Risk/Reward, a generative exploration of Formula 1's high-stakes dynamics where calculated risk and potential reward define the thin line between victory and defeat.",
+    "article_url": "https://www.bybit.com/en/learn/web3/orbr-kjetil-golid-nft-collection",
+    "source": "Bybit Learn",
+    "tags": ["generative-art", "NFT", "Formula 1", "Velocity Series", "Norway"]
   },
   {
     "id": "harm-van-den-dorpel",
