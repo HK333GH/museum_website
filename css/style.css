@@ -371,8 +371,8 @@ a:focus:not(:focus-visible) {
 
 /* Venue — cyber blue with glow */
 .hero-title-venue {
-  color: #4499ff;
-  text-shadow: 0 0 10px rgba(68, 153, 255, 0.5), 0 0 40px rgba(68, 153, 255, 0.3);
+  color: #66aaff;
+  text-shadow: 0 0 10px rgba(102, 170, 255, 0.6), 0 0 40px rgba(102, 170, 255, 0.35);
 }
 
 /* Glitch effect on hero title */
