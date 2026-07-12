@@ -367,7 +367,7 @@
 
     // Update times
     currentTime += dt * 1e-4;
-    effectiveTime += dt * 5e-4 * INTENSITY;
+    effectiveTime += dt * 10e-4 * INTENSITY;
 
     // Compute mouse velocity (pixel delta since last frame)
     const dx = mouseX - prevMouseX;
