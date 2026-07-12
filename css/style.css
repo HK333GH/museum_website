@@ -270,6 +270,8 @@ a:focus:not(:focus-visible) {
   font-size: var(--font-size-xs);
   letter-spacing: 0.12em;
   text-transform: none;
+  text-align: left;
+  line-height: 1.15;
   margin-left: var(--space-sm);
   padding-left: var(--space-lg);
   border-left: 1px solid var(--border-color);
