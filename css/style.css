@@ -11,7 +11,7 @@
   --bg-card-hover: #181825;
 
   /* Neon accents */
-  --neon-cyan: #00ffff;
+  --neon-cyan: #1e90ff;
   --neon-magenta: #ff00ff;
   --neon-green: #00ff41;
   --neon-yellow: #ffff00;
@@ -24,9 +24,9 @@
 
   /* Borders & glows */
   --border-color: #2a2a3a;
-  --border-glow-cyan: 0 0 8px rgba(0, 255, 255, 0.4), 0 0 20px rgba(0, 255, 255, 0.1);
+  --border-glow-cyan: 0 0 8px rgba(30, 144, 255, 0.4), 0 0 20px rgba(30, 144, 255, 0.1);
   --border-glow-magenta: 0 0 8px rgba(255, 0, 255, 0.4), 0 0 20px rgba(255, 0, 255, 0.1);
-  --text-glow-cyan: 0 0 10px rgba(0, 255, 255, 0.6);
+  --text-glow-cyan: 0 0 10px rgba(30, 144, 255, 0.6);
 
   /* Typography */
   --font-mono: 'Roboto Mono', 'Courier New', monospace;
@@ -205,19 +205,19 @@ a:focus:not(:focus-visible) {
 .nav-logo-sub {
   font-size: 22px;
   font-weight: 700;
-  color: var(--neon-magenta);
-  text-shadow: 0 0 8px rgba(255, 0, 255, 0.3);
+  color: var(--neon-cyan);
+  text-shadow: var(--text-glow-cyan);
   letter-spacing: 0.01em;
   font-family: var(--font-mono);
   white-space: nowrap;
   transition: color var(--transition-fast), text-shadow var(--transition-fast);
 }
 
-/* Logo hover — same cyan highlight as nav links */
+/* Logo hover — same neon blue highlight as nav links */
 .nav-logo:hover .nav-logo-main,
 .nav-logo:hover .nav-logo-sub {
   color: var(--neon-cyan);
-  text-shadow: 0 0 8px rgba(0, 255, 255, 0.4);
+  text-shadow: 0 0 8px rgba(30, 144, 255, 0.5);
 }
 
 /* Centered nav links — flex: 1 pushes the social icon to the right */
@@ -371,7 +371,7 @@ a:focus:not(:focus-visible) {
 
 /* Venue — cyber blue with glow */
 .hero-title-venue {
-  color: #1e90ff;
+  color: var(--neon-cyan);
   text-shadow: 0 0 12px rgba(30, 144, 255, 0.7), 0 0 40px rgba(30, 144, 255, 0.4);
 }
 
