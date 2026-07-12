@@ -6,7 +6,7 @@
     "artist": "PerfectLoop",
     "collection": "Windows Shit / Game Shit / drifted",
     "category": "generative-art",
-    "summary": "Anonymous artist PerfectLoop builds looping animations from the ghosts of old computer interfaces \u2014 Windows 98 dialogs, green-screen terminals, MIDI panels \u2014 using Blender and TouchDesigner. A former sound designer exiled from indie games for his crypto enthusiasm, he stumbled into visual art making an album cover; the visuals \u201cate the whole practice.\u201d His rule: \u201cIf it\u2019s not a fuck yes, it\u2019s a no.\u201d Old interfaces are \u201cpinned to a map of time\u201d \u2014 fixed, weighty \u2014 while newer ones haven\u2019t settled yet.",
+    "summary": "Anonymous artist PerfectLoop builds looping animations from old computer interfaces — Windows 98 dialogs, MIDI panels, green-screen terminals. Exiled from indie games for his crypto enthusiasm, he stumbled into visual art making an album cover; the visuals “ate the whole practice.” His rule: “If it’s not a fuck yes, it’s a no.” Old interfaces are “pinned to a map of time” — fixed, weighty — newer ones haven’t settled yet.",
     "article_url": "https://24hours.art/p/weekly-dose-of-art-48",
     "source": "24 Hours of Art",
     "tags": [
@@ -25,7 +25,7 @@
     "artist": "Marisol Vengas (Max Infeld)",
     "collection": "Curio Cards 27–29",
     "category": "crypto-art",
-    "summary": "Pseudonym of Chico-based artist Max Infeld, whose Curio Cards 27, 28, and 29 are among the first known generative artworks on Ethereum. Vengas hosted ad-hoc art-making sessions at a local café where passing strangers would contribute to the composition — each finished piece touched by many unrelated hands, a story written by the crowd. A computer-science student turned Fine Arts graduate, Infeld created community currencies predating Bitcoin and brought participatory art into the blockchain era.",
+    "summary": "Pseudonym of Chico-based artist Max Infeld, whose Curio Cards 27–29 are among the first known generative artworks on Ethereum. Vengas hosted ad-hoc art sessions at a local café where passing strangers contributed to the composition — each piece touched by many unrelated hands. A computer-science student turned Fine Arts graduate, Infeld created community currencies predating Bitcoin and brought participatory art into the blockchain era.",
     "article_url": "https://docs.curio.cards/the-artists/marisol-vengas",
     "source": "Curio Cards Docs",
     "tags": [
@@ -42,7 +42,7 @@
     "artist": "Adam Berninger",
     "collection": "Truth (Feral File)",
     "category": "generative-art",
-    "summary": "Curator Adam Berninger’s Feral File exhibition “Truth” brought together seven generative artists — Tyler Boswell, Presstube x bzor, Ella Hoeppner, Charlotte Dann, David Seven, HAL09999, and Lisa Orth — to explore scale, abstraction, and inner truth. Inspired by Charles and Ray Eames’s 1977 film Powers of Ten, Berninger asked each artist to “obscure a specific perception of size,” revealing a common fabric across cosmic and microscopic scales. “There’s no wrong way to interpret an abstract work,” he says, “and so they’re all right, and therefore true.”",
+    "summary": "Curator Adam Berninger’s Feral File exhibition “Truth” brought together seven generative artists to explore scale, abstraction, and inner truth. Inspired by the Eames’s 1977 film Powers of Ten, Berninger asked each artist to “obscure a specific perception of size,” revealing common fabric across cosmic and microscopic scales. “There’s no wrong way to interpret an abstract work — they’re all right, and therefore true.”",
     "article_url": "https://www.rightclicksave.com/article/the-truth-of-generative-art-interview-adam-berninger-feral-file",
     "source": "Right Click Save",
     "tags": [
@@ -113,7 +113,7 @@
     "artist": "Dennison Bertram",
     "collection": "PridePunks 2018",
     "category": "crypto-art",
-    "summary": "Created by Dennison Bertram during Pride Month 2018, PridePunks is the first-ever CryptoPunks derivative — a political art statement that wrapped the iconic pixel PFP inside a rainbow banner. “The Rainbow felt like the most unambiguous statement that all would be welcome,” Bertram said. After an initial buggy launch that integrated only two CryptoPunks, the contract was revived in 2022 alongside a DAO dedicated to funding LGBTQ+ inclusion and underrepresented voices in Web3.",
+    "summary": "Created by Dennison Bertram during Pride Month 2018, PridePunks is the first CryptoPunks derivative — a political art statement wrapping the iconic pixel PFP inside a rainbow banner. “The Rainbow felt like the most unambiguous statement that all would be welcome,” Bertram said. After a buggy launch integrating only two CryptoPunks, the contract was revived in 2022 alongside a DAO funding LGBTQ+ inclusion and underrepresented voices in Web3.",
     "article_url": "https://medium.com/@mauricedeguerin/pridepunks-2018-a-historic-nft-with-a-modern-mission-of-inclusion-and-diversity-4b8051fc4594",
     "source": "Medium (Mauricedeguerin)",
     "tags": [
@@ -131,7 +131,7 @@
     "artist": "Larva Labs",
     "collection": "CryptoPunks V1 (wrapped)",
     "category": "crypto-art",
-    "summary": "Launched in June 2017 by Larva Labs, CryptoPunks were among the first NFTs on Ethereum \u2014 10,000 free-to-claim 24\u00d724 pixel characters. The original V1 contract carried a critical bug: buyers could withdraw the ETH they paid, effectively stealing the Punk. User \u201chemba\u201d exploited the flaw, heisting dozens before Larva Labs patched the contract on 23 June 2017, re-minting all 10,000 Punks and airdropping them back. The V1 Punks survive as wrapped historical artifacts \u2014 the flawed but authentic birthplace of the PFP NFT.",
+    "summary": "Launched in June 2017 by Larva Labs, CryptoPunks were among the first NFTs on Ethereum — 10,000 free-to-claim 24×24 pixel characters. The V1 contract carried a critical bug: buyers could withdraw the ETH they paid, effectively stealing the Punk. User “hemba” exploited the flaw, heisting dozens before Larva Labs patched and re-minted all 10,000 Punks. The V1 Punks survive as wrapped artifacts — the flawed birthplace of the PFP NFT.",
     "article_url": "https://v1punks.gitbook.io/cryptopunks-v1-wiki/history-of-cryptopunks",
     "source": "CryptoPunks V1 Wiki",
     "tags": [
@@ -201,7 +201,7 @@
     "artist": "Per Kristian Stoveland",
     "collection": "Pursuit / Echo of Intensity",
     "category": "generative-art",
-    "summary": "Norwegian generative artist Per Kristian Stoveland’s Velocity Series collections — Pursuit and Echo of Intensity — were commissioned by Oracle Red Bull Racing and Bybit. Pursuit channels the spectral beauty of open-shutter night photography: streaks of light carving through dark Norwegian-inspired landscapes, with F1 track geometries (curves, chicanes, parabolicas) embedded as algorithmic trait systems. A self-taught coder who transitioned from conventional art in 2021, Stoveland lets coding anomalies guide his process — relinquishing exact expectations to let the algorithm surprise him.",
+    "summary": "Norwegian generative artist Per Kristian Stoveland’s Velocity Series collections — Pursuit and Echo of Intensity — were commissioned by Oracle Red Bull Racing and Bybit. Pursuit channels open-shutter night photography: streaks of light carving through dark landscapes, with F1 track geometries as algorithmic trait systems. A self-taught coder since 2021, Stoveland lets coding anomalies guide his process — relinquishing exact expectations to let the algorithm surprise him.",
     "article_url": "https://digitalart.io/pursuit-per-kristian-stoveland/",
     "source": "digitalart.io",
     "tags": [
@@ -219,7 +219,7 @@
     "artist": "Ivona Tau, Sarah Ridgley, Kaoru Tanaka, Marcelo Soria Rodríguez, Emily Xie, Artemis, Anna Lucia, Studio Moodsoup, Melissa Wiederrecht, Shunsuke Takawo",
     "collection": "Various",
     "category": "generative-art",
-    "summary": "A survey of 10 generative artists shaping the field: Ivona Tau (AI-generated universal memories), Sarah Ridgley (algorithmic botanicals), Kaoru Tanaka (code-driven calligraphy), Marcelo Soria Rodríguez (data sonification), Emily Xie (textile-inspired algorithms), Artemis (glitch aesthetics), Anna Lucia (generative identity), Studio Moodsoup / Stefan Reyniers (child-like wonder through minimalist geometry), Melissa Wiederrecht (pattern and color mastery), and Shunsuke Takawo (daily code sketches). Together they map the expanding terrain where code, chance, and human intent converge.",
+    "summary": "A survey of 10 generative artists: Ivona Tau (AI-generated universal memories), Sarah Ridgley (algorithmic botanicals), Kaoru Tanaka (code-driven calligraphy), Marcelo Soria Rodríguez (data sonification), Emily Xie (textile-inspired algorithms), Artemis (glitch aesthetics), Anna Lucia (generative identity), Studio Moodsoup (child-like wonder through minimalist geometry), Melissa Wiederrecht (pattern and color mastery), and Shunsuke Takawo (daily code sketches). Together they map the expanding terrain where code, chance, and human intent converge.",
     "article_url": "https://www.digitalartsblog.com/artist-spotlights/10-digital-artists-reign-of-generative-art",
     "source": "Digital Arts Blog",
     "tags": [
