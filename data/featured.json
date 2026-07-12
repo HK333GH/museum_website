@@ -14,7 +14,7 @@
   {
     "id": "cryptopunks-2017",
     "published": "2024-06-01",
-    "title": "CryptoPunks: The Rosetta Stone of NFTs",
+    "title": "CryptoPunks: The V1 Bug, the Heist, and the Birth of the PFP NFT",
     "artist": "Larva Labs",
     "collection": "CryptoPunks V1 (wrapped)",
     "category": "crypto-art",
@@ -204,16 +204,16 @@
     "tags": ["generative-art", "Art Blocks", "Norway", "landscape"]
   },
   {
-    "id": "tyler-boswell",
-    "published": "2023-09-29",
-    "title": "Tyler Boswell (teaboswell): The fxhash Generative Force",
-    "artist": "teaboswell",
-    "collection": "September, ASSEMBLING MACHINE",
+    "id": "adam-berninger-truth",
+    "published": "2026-07-12",
+    "title": "Adam Berninger: The Truth of Generative Art",
+    "artist": "Adam Berninger",
+    "collection": "Truth (Feral File)",
     "category": "generative-art",
-    "summary": "Prolific fxhash artist Tyler Boswell, known as teaboswell, has released numerous generative collections including September, ASSEMBLING MACHINE, and Reunion. His work spans delicate floral patterns to mechanical assemblies, each exploring the boundaries of browser-based generative systems on the Tezos blockchain.",
-    "article_url": "https://pouretrebelle.com/post/729813282406514688/tyler-boswell",
-    "source": "Pour Être Belle",
-    "tags": ["generative-art", "fxhash", "Tezos", "code-art"]
+    "summary": "Curator Adam Berninger\u2019s Feral File exhibition \u201cTruth\u201d brought together seven generative artists \u2014 Tyler Boswell, Presstube x bzor, Ella Hoeppner, Charlotte Dann, David Seven, HAL09999, and Lisa Orth \u2014 to explore scale, abstraction, and inner truth. Inspired by Charles and Ray Eames\u2019s 1977 film Powers of Ten, Berninger asked each artist to \u201cobscure a specific perception of size,\u201d revealing a common fabric across cosmic and microscopic scales. \u201cThere\u2019s no wrong way to interpret an abstract work,\u201d he says, \u201cand so they\u2019re all right, and therefore true.\u201d",
+    "article_url": "https://www.rightclicksave.com/article/the-truth-of-generative-art-interview-adam-berninger-feral-file",
+    "source": "Right Click Save",
+    "tags": ["generative-art", "Feral File", "curation", "scale", "abstraction"]
   },
   {
     "id": "aleksandra-jovanic",
