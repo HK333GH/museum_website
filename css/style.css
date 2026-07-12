@@ -272,7 +272,7 @@ a:focus:not(:focus-visible) {
   letter-spacing: 0.12em;
   text-transform: none;
   text-align: left;
-  line-height: 1.05;
+  line-height: 1.25;
   white-space: normal;
   margin-left: var(--space-sm);
   padding-left: var(--space-lg);
@@ -486,14 +486,14 @@ a:focus:not(:focus-visible) {
 
 .section-title {
   font-size: var(--font-size-2xl);
-  color: var(--neon-cyan);
-  text-shadow: var(--text-glow-cyan);
+  color: var(--neon-magenta);
+  text-shadow: 0 0 10px rgba(255, 0, 255, 0.6);
   margin-bottom: var(--space-sm);
 }
 
 .section-subtitle {
-  font-size: var(--font-size-sm);         /* was 0.8rem → now 0.85rem */
-  color: var(--text-secondary);            /* was --text-muted → WCAG AA fix */
+  font-size: var(--font-size-sm);
+  color: var(--neon-cyan);
   letter-spacing: 0.05em;
 }
 
