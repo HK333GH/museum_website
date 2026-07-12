@@ -180,16 +180,16 @@
     "tags": ["generative-art", "Art Blocks", "Art Basel", "synesthesia"]
   },
   {
-    "id": "moodsoup",
+    "id": "10-digital-artists-generative",
     "published": "2023-06-26",
-    "title": "Stefan Reyniers (Moodsoup): Cultivating Child-Like Wonder Through Code",
-    "artist": "Moodsoup",
-    "collection": "Linea Recta",
+    "title": "10 Digital Artists: The Reign of Generative Art",
+    "artist": "Ivona Tau, Sarah Ridgley, Kaoru Tanaka, Marcelo Soria Rodríguez, Emily Xie, Artemis, Anna Lucia, Studio Moodsoup, Melissa Wiederrecht, Shunsuke Takawo",
+    "collection": "Various",
     "category": "generative-art",
-    "summary": "Belgian graphic designer and web developer Stefan Reyniers, operating under the moniker Moodsoup, creates generative art that cultivates a child-like wonder about the workings of the world. His Art Blocks collection Linea Recta (2023) explores minimalist geometric compositions through algorithmic systems.",
+    "summary": "A survey of 10 generative artists shaping the field: Ivona Tau (AI-generated universal memories), Sarah Ridgley (algorithmic botanicals), Kaoru Tanaka (code-driven calligraphy), Marcelo Soria Rodríguez (data sonification), Emily Xie (textile-inspired algorithms), Artemis (glitch aesthetics), Anna Lucia (generative identity), Studio Moodsoup / Stefan Reyniers (child-like wonder through minimalist geometry), Melissa Wiederrecht (pattern and color mastery), and Shunsuke Takawo (daily code sketches). Together they map the expanding terrain where code, chance, and human intent converge.",
     "article_url": "https://www.digitalartsblog.com/artist-spotlights/10-digital-artists-reign-of-generative-art",
     "source": "Digital Arts Blog",
-    "tags": ["generative-art", "Art Blocks", "minimalism", "Belgium"]
+    "tags": ["generative-art", "survey", "Moodsoup", "Melissa Wiederrecht", "AI", "code-art"]
   },
   {
     "id": "per-kristian-stoveland",
