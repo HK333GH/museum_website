@@ -266,12 +266,14 @@ a:focus:not(:focus-visible) {
 
 /* Related Articles link — visually distinct from category links */
 .nav-links .nav-articles {
+  display: inline-block;
   color: var(--text-muted);
   font-size: var(--font-size-xs);
   letter-spacing: 0.12em;
   text-transform: none;
   text-align: left;
-  line-height: 1.15;
+  line-height: 1.05;
+  white-space: normal;
   margin-left: var(--space-sm);
   padding-left: var(--space-lg);
   border-left: 1px solid var(--border-color);
