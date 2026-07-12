@@ -6,7 +6,7 @@
     "artist": "PerfectLoop",
     "collection": "Windows Shit / Game Shit / drifted",
     "category": "generative-art",
-    "summary": "Anonymous artist PerfectLoop builds hypnotic looping animations from the ghosts of old computer interfaces — Windows 98 dialogs, green-screen terminals, MIDI control panels — using Blender, TouchDesigner, and Cavalry. A former sound designer for indie games who was exiled from that world for his crypto enthusiasm, he stumbled into visual art while trying to make an album cover; the visuals “ate the whole practice.” He works by a single rule: “If it’s not a fuck yes, it’s a no,” picking the stupidest idea from a running list of hundreds each morning. Old interfaces, he says, are “pinned to a map of time” — fixed, weighty, nostalgic — while newer ones haven’t settled yet.",
+    "summary": "Anonymous artist PerfectLoop builds looping animations from the ghosts of old computer interfaces \u2014 Windows 98 dialogs, green-screen terminals, MIDI panels \u2014 using Blender and TouchDesigner. A former sound designer exiled from indie games for his crypto enthusiasm, he stumbled into visual art making an album cover; the visuals \u201cate the whole practice.\u201d His rule: \u201cIf it\u2019s not a fuck yes, it\u2019s a no.\u201d Old interfaces are \u201cpinned to a map of time\u201d \u2014 fixed, weighty \u2014 while newer ones haven\u2019t settled yet.",
     "article_url": "https://24hours.art/p/weekly-dose-of-art-48",
     "source": "24 Hours of Art",
     "tags": [
@@ -131,7 +131,7 @@
     "artist": "Larva Labs",
     "collection": "CryptoPunks V1 (wrapped)",
     "category": "crypto-art",
-    "summary": "Launched in June 2017 by Larva Labs (Matt Hall and John Watkinson), CryptoPunks were among the first NFTs on Ethereum — 10,000 free-to-claim 24×24 pixel characters. The original V1 contract carried a critical bug in the _offerpunkforsale function: buyers could withdraw the ETH they paid, effectively stealing the Punk. User “hemba” discovered and exploited the flaw, heisting dozens before Larva Labs issued a patched V2 contract on 23 June 2017, re-minting all 10,000 Punks and airdropping them back to original claimants. The V1 Punks survive today as wrapped historical artifacts — the flawed but authentic birthplace of the PFP NFT.",
+    "summary": "Launched in June 2017 by Larva Labs, CryptoPunks were among the first NFTs on Ethereum \u2014 10,000 free-to-claim 24\u00d724 pixel characters. The original V1 contract carried a critical bug: buyers could withdraw the ETH they paid, effectively stealing the Punk. User \u201chemba\u201d exploited the flaw, heisting dozens before Larva Labs patched the contract on 23 June 2017, re-minting all 10,000 Punks and airdropping them back. The V1 Punks survive as wrapped historical artifacts \u2014 the flawed but authentic birthplace of the PFP NFT.",
     "article_url": "https://v1punks.gitbook.io/cryptopunks-v1-wiki/history-of-cryptopunks",
     "source": "CryptoPunks V1 Wiki",
     "tags": [
