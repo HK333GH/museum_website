@@ -350,6 +350,20 @@
     "sub_category": "fxHash Collection"
   },
   {
+    "id": "ai-carneyvores-113",
+    "title": "Carneyvores",
+    "artist": "JohnnyBoyArt",
+    "collection": "AINN",
+    "platform": "objkt.com",
+    "blockchain": "Tezos",
+    "mint_date": "24 Aug 2026",
+    "item_number": "113",
+    "thumbnail_url": "assets/images/thumbnails/ai-carneyvores-113.webp",
+    "source_url": "https://objkt.com/tokens/KT1NvaV91cyJSXFJaHQ6u2kXwFjNahR1gnxv/113",
+    "category": "ai-art",
+    "sub_category": "objkt.com Collection"
+  },
+  {
     "id": "ai-secret-sauce-160",
     "title": "secret\u3299\ufe0fsauce #160",
     "artist": "plasm0",
