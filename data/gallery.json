@@ -1045,5 +1045,19 @@
     "category": "photography",
     "sub_category": "objkt.com",
     "thumbnail_url": "assets/images/thumbnails/photo-tsuen-wan-pawn-48534.webp"
+  },
+  {
+    "id": "photo-voyages-57-130",
+    "title": "Voyages #57",
+    "artist": "Ozark",
+    "collection": "Voyages",
+    "platform": "OpenSea",
+    "blockchain": "Ethereum",
+    "mint_date": "11 Nov 2023",
+    "item_number": "130",
+    "thumbnail_url": "assets/images/thumbnails/photo-voyages-57-130.webp",
+    "source_url": "https://opensea.io/item/ethereum/0xe202bae0663ba0cdd008ac948921871167a9d09f/130",
+    "category": "photography",
+    "sub_category": "OpenSea"
   }
 ]
