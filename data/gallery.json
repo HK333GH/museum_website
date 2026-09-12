@@ -350,6 +350,20 @@
     "sub_category": "fxHash Collection"
   },
   {
+    "id": "fxhash-spirali-77",
+    "title": "Spirali #77",
+    "artist": "Paulo Silva",
+    "collection": "Spirali",
+    "platform": "fxHash",
+    "blockchain": "Tezos",
+    "mint_date": "21 Sep 2022",
+    "item_number": "77",
+    "thumbnail_url": "assets/images/thumbnails/fxhash-spirali-77.webp",
+    "source_url": "https://www.fxhash.xyz/iteration/spirali-77",
+    "category": "generative-art",
+    "sub_category": "fxHash Collection"
+  },
+  {
     "id": "ai-carneyvores-113",
     "title": "Carneyvores",
     "artist": "JohnnyBoyArt",
