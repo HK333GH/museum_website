@@ -366,5 +366,24 @@
       "generative",
       "history"
     ]
+  },
+  {
+    "id": "richard-nadler-what-an-image-can-become",
+    "published": "2026-11-01",
+    "title": "Richard Nadler: What an Image Can Become",
+    "artist": "Richard Nadler",
+    "collection": "Japanese GenArt Collection",
+    "category": "generative-art",
+    "summary": "Richard Nadler learned to look before he learned to make: his father placed fabrics in his hands and pointed out what others walked past. Working with diffusion models, he runs ten to thirty thousand outputs per series, sometimes spending a year on work he never releases. “An image matters when it keeps working after the first encounter.” His stitched surfaces move between embroidery, code, and memory.",
+    "article_url": "https://blog.objkt.com/post/richard-nadler-what-an-image-can-become",
+    "source": "objkt Blog",
+    "tags": [
+      "generative-art",
+      "Richard-Nadler",
+      "embroidery",
+      "AI-art",
+      "Tezos",
+      "memory"
+    ]
   }
 ]
